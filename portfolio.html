@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Sigurd Rolfsnes Photography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="star-bg"></div>
+  <!-- ...existing navbar... -->
+  <nav class="navbar">
+    <div class="logo">SIGURD ROLFSNES</div>
+    <button class="hamburger" aria-label="Open navigation" aria-controls="main-nav" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="main-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <div class="hero-spacer"></div>
+  <section class="portfolio-section">
+    <h1>Portfolio</h1>
+    <div class="portfolio-categories">
+      <div class="portfolio-categories-desktop">
+        <button class="category-btn active" data-category="astro">Astrophotography</button>
+        <button class="category-btn" data-category="landscapes">Landscapes</button>
+        <button class="category-btn" data-category="wildlife">Wildlife</button>
+      </div>
+      <div class="portfolio-categories-mobile">
+        <button class="category-dropdown-toggle" id="categoryDropdownToggle">Astrophotography ▼</button>
+        <div class="category-dropdown-menu" id="categoryDropdownMenu">
+          <button class="category-btn" data-category="astro">Astrophotography</button>
+          <button class="category-btn" data-category="landscapes">Landscapes</button>
+          <button class="category-btn" data-category="wildlife">Wildlife</button>
+        </div>
+      </div>
+    </div>
+    <div class="gallery-grid" id="portfolioGallery"></div>
+    </div>
+  </section>
+  <div class="lightbox-overlay" id="lightboxOverlay" tabindex="-1" aria-modal="true" role="dialog">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+      <button class="lightbox-arrow left" id="lightboxPrev" aria-label="Previous image">&#8592;</button>
+      <img class="lightbox-img" id="lightboxImg" src="" alt="">
+      <div class="lightbox-title" id="lightboxTitle">Image Title</div>
+      <div class="lightbox-caption" id="lightboxCaption">Captured during a quiet night under the stars / a walk in nature — click arrows to explore more.</div>
+      <button class="lightbox-arrow right" id="lightboxNext" aria-label="Next image">&#8594;</button>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Sigurd Rolfsnes. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+<script>
+// Mobile dropdown logic
+const dropdownToggle = document.getElementById('categoryDropdownToggle');
+const dropdownMenu = document.getElementById('categoryDropdownMenu');
+if (dropdownToggle && dropdownMenu) {
+  dropdownToggle.addEventListener('click', function(e) {
+    e.stopPropagation();
+    dropdownMenu.classList.toggle('open');
+  });
+  dropdownMenu.querySelectorAll('.category-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      dropdownMenu.classList.remove('open');
+      // Remove active from all
+      dropdownMenu.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      // Update toggle text to selected category
+      dropdownToggle.textContent = btn.textContent + ' ▼';
+      if (window.renderPortfolio) window.renderPortfolio(btn.dataset.category);
+    });
+  });
+  document.addEventListener('click', function(e) {
+    if (!dropdownMenu.contains(e.target) && !dropdownToggle.contains(e.target)) {
+      dropdownMenu.classList.remove('open');
+    }
+  });
+}
+</script>
+  <script>
+    // Hamburger menu toggle for all pages
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    if (hamburger && navLinks) {
+      hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('open');
+        const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', !expanded);
+      });
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          if (window.innerWidth <= 800) {
+            navLinks.classList.remove('open');
+            hamburger.setAttribute('aria-expanded', 'false');
+          }
+        });
+      });
+    }
+    // Starry background animation
+    const starBg = document.querySelector('.star-bg');
+    if (starBg) {
+      const numStars = 120;
+      for (let i = 0; i < numStars; i++) {
+        const star = document.createElement('div');
+        star.className = 'star';
+        const size = Math.random() * 2 + 1;
+        star.style.width = `${size}px`;
+        star.style.height = `${size}px`;
+        star.style.top = `${Math.random() * 100}%`;
+        star.style.left = `${Math.random() * 100}%`;
+        star.style.animationDuration = `${Math.random() * 2 + 2}s`;
+        starBg.appendChild(star);
+      }
+    }
+  </script>
+  <script>
+    // --- Open lightbox for image from query parameter ---
+function getQueryParam(name) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(name);
+}
+window.addEventListener('DOMContentLoaded', () => {
+  const requestedImage = getQueryParam('image');
+  if (requestedImage && window.openLightbox) {
+    // Wait for gallery to render, then open lightbox
+    setTimeout(() => {
+      // Try to find the image in the gallery
+      const imgs = Array.from(document.querySelectorAll('#portfolioGallery img'));
+      const found = imgs.find(img => img.src.endsWith(requestedImage) || img.src === requestedImage);
+      if (found) {
+        const imgList = imgs.map(im => im.src);
+        window.openLightbox(found.src, imgList);
+      }
+    }, 400);
+  }
+});
+  </script>
+  <style>
+    /* Lightbox overlay and content styles */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 10, 10, 0.92);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  transition: opacity 0.3s;
+}
+.lightbox-overlay.active {
+  display: flex;
+  animation: fadeIn 0.3s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.lightbox-content {
+  position: relative;
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.7);
+  padding: 32px 24px 24px 24px;
+  max-width: 96vw;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: slideUp 0.3s;
+}
+@keyframes slideUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+  margin-bottom: 24px;
+  background: #111;
+  object-fit: contain;
+  /* Make image bigger on large screens */
+}
+@media (min-width: 900px) {
+  .lightbox-img {
+    max-width: 80vw;
+    max-height: 80vh;
+  }
+  .lightbox-content {
+    padding: 40px 40px 32px 40px;
+  }
+}
+.lightbox-title {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.lightbox-caption {
+  color: #b0ffda;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 16px;
+  text-align: center;
+  max-width: 600px;
+}
+.lightbox-close {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2.2rem;
+  cursor: pointer;
+  z-index: 2;
+  transition: color 0.2s;
+}
+.lightbox-close:hover { color: #00FF7F; }
+.lightbox-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(20,20,20,0.7);
+  border: none;
+  color: #fff;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  z-index: 2;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lightbox-arrow.left { left: 10px; }
+.lightbox-arrow.right { right: 10px; }
+.lightbox-arrow:hover { background: #00FF7F; color: #111; }
+@media (max-width: 600px) {
+  .lightbox-content {
+    padding: 16px 4px 8px 4px;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  .lightbox-img {
+    max-width: 98vw;
+    max-height: 60vh;
+  }
+  .lightbox-title, .lightbox-caption {
+    font-size: 1rem;
+    padding: 0 8px;
+  }
+  .lightbox-arrow {
+    width: 38px;
+    height: 38px;
+    font-size: 1.7rem;
+  }
+  .lightbox-close {
+    font-size: 1.7rem;
+    top: 8px;
+    right: 12px;
+  }
+}
+  </style>
+</body>
+</html>
