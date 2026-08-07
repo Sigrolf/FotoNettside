@@ -776,14 +776,14 @@
     Andromeda galaxy taken from Namdalseid, Norway. Its the closest
     spiral galaxy to our Milky Way. With over a trillion stars.
   category: astro
-  featured: false
+  featured: true
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg
   public_id: Orions_belt
   title: Orions_belt
   caption: 'this is Orion''s Belt. Taken from Namdalseid, Norway'
   category: astro
-  featured: false
+  featured: true
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348917/_00002_fv08zm.jpg
   public_id: Milky_way
@@ -818,7 +818,7 @@
   title: Heart and soul Nebula
   caption: 'This is unstracked and very edited, so this is not very real as to how it looks'
   category: astro
-  featured: false
+  featured: true
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348920/_00008_h2wyy9.jpg
   public_id: The Moon
