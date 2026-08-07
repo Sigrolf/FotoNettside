@@ -414,7 +414,7 @@ body > *:not(.star-bg):not(.navbar):not(.lightbox):not(.lightbox-overlay) {
   align-items: center;
   justify-content: center;
   background:
-    url('images/astro/Background.png') center center/cover;
+    url('https://res.cloudinary.com/duugpqtue/image/upload/v1766351140/Background_tt0ooh.png') center center/cover;
   position: relative;
   z-index: 0;
   overflow: hidden;
