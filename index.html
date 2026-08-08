@@ -25,11 +25,13 @@
     </ul>
   </nav>
   <section id="home" class="hero-section">
-    <div class="hero-glass">
-      <div class="hero-content">
-        <h1>Uncovering the deep dark</h1>
-        <p>Our universe is 99.99% darkness, but still there is so so much to see</p>
-      </div>
+    <div class="hero-media" id="heroMedia" aria-hidden="true"></div>
+    <div class="hero-shade"></div>
+    <div class="hero-content">
+      <p class="hero-kicker">Photography by Sigurd Rolfsnes</p>
+      <h1>Uncovering the deep dark</h1>
+      <p>Space, landscapes, and the moments worth staying out for.</p>
+      <div class="hero-progress" id="heroProgress" aria-hidden="true"></div>
     </div>
   </section>
   <!-- Portfolio invitation -->
@@ -79,6 +81,73 @@
     }
 
     // --- Latest Posts Dynamic Loader ---
+    function loadHeroSlideshow() {
+      const heroMedia = document.getElementById('heroMedia');
+      const heroProgress = document.getElementById('heroProgress');
+      if (!heroMedia) return;
+
+      const slides = [
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198502/DSCF6777_iwmgiy.jpg' },
+        { type: 'video', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198172/bl%C3%A5isvatnet_backflip_spbqsf.mov' },
+        { type: 'video', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198173/backflip_reinebringen_ooxw04.mp4' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766351140/Background_tt0ooh.png' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg' }
+      ];
+
+      for (let index = slides.length - 1; index > 0; index--) {
+        const randomIndex = Math.floor(Math.random() * (index + 1));
+        [slides[index], slides[randomIndex]] = [slides[randomIndex], slides[index]];
+      }
+
+      const layers = slides.map((slide, index) => {
+        const media = document.createElement(slide.type === 'video' ? 'video' : 'img');
+        media.className = 'hero-media-layer';
+        media.src = slide.src;
+        media.alt = '';
+        media.dataset.index = index;
+        if (slide.type === 'video') {
+          media.muted = true;
+          media.loop = true;
+          media.playsInline = true;
+          media.setAttribute('aria-hidden', 'true');
+        } else {
+          media.loading = index === 0 ? 'eager' : 'lazy';
+        }
+        heroMedia.appendChild(media);
+        return media;
+      });
+
+      let activeIndex = 0;
+      let timer;
+      const showSlide = index => {
+        activeIndex = index % layers.length;
+        layers.forEach((layer, layerIndex) => {
+          layer.classList.toggle('is-active', layerIndex === activeIndex);
+          if (layer.tagName === 'VIDEO') {
+            if (layerIndex === activeIndex) {
+              layer.currentTime = 0;
+              layer.play().catch(() => {});
+            } else {
+              layer.pause();
+            }
+          }
+        });
+        if (heroProgress) {
+          heroProgress.style.setProperty('--progress-index', activeIndex);
+          heroProgress.style.setProperty('--progress-count', layers.length);
+        }
+      };
+
+      const advance = () => {
+        showSlide(activeIndex + 1);
+        timer = window.setTimeout(advance, 8500);
+      };
+
+      showSlide(0);
+      timer = window.setTimeout(advance, 8500);
+      window.addEventListener('pagehide', () => window.clearTimeout(timer), { once: true });
+    }
+
     async function fetchLatestPosts() {
       const postFiles = [
         'blog/post-1.html',
@@ -189,6 +258,7 @@
 
     // Load latest posts on DOMContentLoaded
     window.addEventListener('DOMContentLoaded', async () => {
+      loadHeroSlideshow();
       await loadFeaturedImages();
       const posts = await fetchLatestPosts();
       renderLatestPosts(posts);
