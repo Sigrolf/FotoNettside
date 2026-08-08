@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sync:landscapes": "node scripts/sync-cloudinary-landscapes.js",
-    "sync:backflips": "node scripts/sync-cloudinary-backflips.js"
+    "sync:backflips": "node scripts/sync-cloudinary-backflips.js",
+    "sync:wildlife": "node scripts/sync-cloudinary-wildlife.js",
+    "sync:all": "npm run sync:landscapes && npm run sync:wildlife && npm run sync:backflips"
   },
   "repository": {
     "type": "git",

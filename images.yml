@@ -1,85 +1,78 @@
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342019/DJI_0110_w7qnrj.jpg
   public_id: DJI_0110_w7qnrj
-  title: DJI_0110_w7qnrj
-  caption: ''
+  title: Selbukåten
+  caption: 'After a small hike from the parking lot we found this small earth hut in the woods. It is an NTNUI cabin and very hidden.'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342019/DJI_0180_boxoiz.jpg
   public_id: DJI_0180_boxoiz
-  title: DJI_0180_boxoiz
-  caption: ''
+  title: Hellesylt fjord
+  caption: 'Captured using dji avata drone, taken above Hellesylt looking out toward the geiranger fjord'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342020/DSCF1866_oz7tba.jpg
   public_id: DSCF1866_oz7tba
-  title: DSCF1866_oz7tba
-  caption: ''
+  title: Griffith obersvatory
+  caption: 'Taken in june 2024, at the beginning of our 2 week california roadtrip'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342020/DSCF2037_wfrbvy.jpg
   public_id: DSCF2037_wfrbvy
-  title: DSCF2037_wfrbvy
-  caption: ''
+  title: Los angeles city
+  caption: 'Not quite a landscape, taken june 2024 during my roadtrip in california'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342020/DSCF2053_ape5sc.jpg
   public_id: DSCF2053_ape5sc
-  title: DSCF2053_ape5sc
-  caption: ''
-  category: landscapes
-  featured: false
-- url: >-
-    https://res.cloudinary.com/duugpqtue/image/upload/v1766342021/DSCF2066_iz8hom.jpg
-  public_id: DSCF2066_iz8hom
-  title: DSCF2066_iz8hom
-  caption: ''
+  title: Hollywood sunset
+  caption: 'june 2024, sunset over the hollywood hills'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342021/DSCF2118_do6jyt.jpg
   public_id: DSCF2118_do6jyt
-  title: DSCF2118_do6jyt
-  caption: ''
+  title: LA skyline
+  caption: 'Taken from griffith observator, june 2024'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342021/DSCF2134_haqhxj.jpg
   public_id: DSCF2134_haqhxj
-  title: DSCF2134_haqhxj
-  caption: ''
+  title: LA skyline twilight
+  caption: 'yup, the LA skyline from griffith obersvatory in twilight, very cool!'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342022/DSCF2211_slxqkv.jpg
   public_id: DSCF2211_slxqkv
-  title: DSCF2211_slxqkv
-  caption: ''
+  title: Flowery road
+  caption: 'Taken a bit of north of Malibu, june 2024'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342023/DSCF2249_zgmvvu.jpg
   public_id: DSCF2249_zgmvvu
-  title: DSCF2249_zgmvvu
-  caption: ''
+  title: Carmel Valley
+  caption: 'This is the beginning of carmel valley, a bit south of monterey. Taken june 2024'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342023/DSCF2288_nw6ia8.jpg
   public_id: DSCF2288_nw6ia8
-  title: DSCF2288_nw6ia8
-  caption: ''
+  title: Carmel valley road
+  caption: 'Road winding between hills in carmel valley california, june 2024'
   category: landscapes
   featured: false
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342024/DSCF2307_mtrhvd.jpg
   public_id: DSCF2307_mtrhvd
-  title: DSCF2307_mtrhvd
-  caption: ''
+  title: Big sur coast
+  caption: 'Driving on the big sur coast was an amazing expereince with views all around'
   category: landscapes
   featured: false
 - url: >-
@@ -1136,4 +1129,100 @@
   title: DSCF7765_uabuch
   caption: ''
   category: backflips
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212353/_1_dvwl3k.jpg
+  public_id: _1_dvwl3k
+  title: _1_dvwl3k
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212369/_12_jzl4am.jpg
+  public_id: _12_jzl4am
+  title: _12_jzl4am
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348962/_13_yq7qzt.jpg
+  public_id: _13_yq7qzt
+  title: _13_yq7qzt
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212378/_16_z9xl3r.jpg
+  public_id: _16_z9xl3r
+  title: _16_z9xl3r
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212379/_17_cksfds.jpg
+  public_id: _17_cksfds
+  title: _17_cksfds
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212382/_18_gmfgx4.jpg
+  public_id: _18_gmfgx4
+  title: _18_gmfgx4
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212384/_19_vbjtnk.jpg
+  public_id: _19_vbjtnk
+  title: _19_vbjtnk
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212349/_2_nozxks.jpg
+  public_id: _2_nozxks
+  title: _2_nozxks
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212386/_20_gmirnk.jpg
+  public_id: _20_gmirnk
+  title: _20_gmirnk
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212351/_3_vvlsjk.jpg
+  public_id: _3_vvlsjk
+  title: _3_vvlsjk
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212352/_4_ahhydl.jpg
+  public_id: _4_ahhydl
+  title: _4_ahhydl
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212355/_5_hvixtm.jpg
+  public_id: _5_hvixtm
+  title: _5_hvixtm
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212358/_6_g5xeax.jpg
+  public_id: _6_g5xeax
+  title: _6_g5xeax
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212359/_7_hjsyvk.jpg
+  public_id: _7_hjsyvk
+  title: _7_hjsyvk
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212362/_8_kreqfm.jpg
+  public_id: _8_kreqfm
+  title: _8_kreqfm
+  caption: ''
+  category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786210002/ekorn_n0tjs5.jpg
+  public_id: ekorn_n0tjs5
+  title: ekorn_n0tjs5
+  caption: ''
+  category: wildlife
   featured: false
