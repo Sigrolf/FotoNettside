@@ -146,6 +146,21 @@ function getImageMeta(src) {
   return imageMeta[src] || { title: 'Untitled', description: 'No description.', date: '', camera: 'Fujifilm XT-30', settings: '' };
 }
 
+function getLightboxMeta(src) {
+  if (portfolioMetaLookup.has(src)) {
+    const portfolioMeta = getPortfolioImageMeta(src);
+    return {
+      title: portfolioMeta.title,
+      description: portfolioMeta.description,
+      date: '',
+      camera: portfolioMeta.camera || 'Cloudinary',
+      settings: ''
+    };
+  }
+
+  return getImageMeta(src);
+}
+
 function openLightbox(src, imgs = images) {
   currentImages = imgs;
   currentIndex = imgs.indexOf(src);
@@ -158,10 +173,11 @@ function openLightbox(src, imgs = images) {
 
 function showLightboxImage(idx) {
   const src = currentImages[idx];
+  const meta = getLightboxMeta(src);
   imgEl.src = src;
-  imgEl.alt = getImageMeta(src).title || 'Large view';
-  titleEl.textContent = getImageMeta(src).title;
-  currentImageData = getImageMeta(src);
+  imgEl.alt = meta.title || 'Large view';
+  titleEl.textContent = meta.title;
+  currentImageData = meta;
   // Responsive, animated details panel markup
   detailsPanel.innerHTML = `
     <div class="lightbox-details-panel-row"><strong>Description:</strong> <span>${currentImageData.description || 'N/A'}</span></div>
@@ -481,15 +497,9 @@ function renderPortfolio(category) {
     img.loading = 'lazy';
     img.classList.add('portfolio-img');
     img.style.setProperty('--i', index + 1);
-    img.title = item.caption || item.title || '';
     img.addEventListener('click', () => openLightbox(item.url, items.map(entry => entry.url)));
 
-    const title = document.createElement('div');
-    title.className = 'portfolio-img-title';
-    title.textContent = item.title || item.public_id || 'Untitled';
-
     wrapper.appendChild(img);
-    wrapper.appendChild(title);
     portfolioGallery.appendChild(wrapper);
   });
 
@@ -644,16 +654,9 @@ function enhancePortfolioImages() {
     const wrapper = document.createElement('div');
     wrapper.className = 'portfolio-img-wrapper';
     img.classList.add('portfolio-img');
-    // Create title bar
-    const titleDiv = document.createElement('div');
-    titleDiv.className = 'portfolio-img-title';
-    titleDiv.textContent = meta.title;
-    // Optionally add description as tooltip
-    if (meta.description) img.title = meta.description;
     // Insert
     img.parentNode.insertBefore(wrapper, img);
     wrapper.appendChild(img);
-    wrapper.appendChild(titleDiv);
   });
 }
 

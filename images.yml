@@ -1082,27 +1082,9 @@
   caption: ''
   category: landscapes
   featured: false
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133338/DSCF2727_ovc4vr.jpg
-  public_id: DSCF2727_ovc4vr
-  title: DSCF2727_ovc4vr
-  caption: ''
-  category: landscapes
-  featured: false
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198502/322A8551_ejntdo.jpg
   public_id: 322A8551_ejntdo
   title: 322A8551_ejntdo
-  caption: ''
-  category: backflips
-  featured: false
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198501/DSCF6112_szvba4.jpg
-  public_id: DSCF6112_szvba4
-  title: DSCF6112_szvba4
-  caption: ''
-  category: backflips
-  featured: false
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198501/DSCF6175_nbpi1j.jpg
-  public_id: DSCF6175_nbpi1j
-  title: DSCF6175_nbpi1j
   caption: ''
   category: backflips
   featured: false
@@ -1225,4 +1207,100 @@
   title: ekorn_n0tjs5
   caption: ''
   category: wildlife
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221653/DJI_0197-Edit_aubmjk.jpg
+  public_id: DJI_0197-Edit_aubmjk
+  title: DJI_0197-Edit_aubmjk
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221654/DJI_0247-Edit_xzcwqh.jpg
+  public_id: DJI_0247-Edit_xzcwqh
+  title: DJI_0247-Edit_xzcwqh
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221654/DSCF5487_spyf5v.jpg
+  public_id: DSCF5487_spyf5v
+  title: DSCF5487_spyf5v
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221655/DSCF6729_q1fp1t.jpg
+  public_id: DSCF6729_q1fp1t
+  title: DSCF6729_q1fp1t
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221655/DSCF6791_lqu3vj.jpg
+  public_id: DSCF6791_lqu3vj
+  title: DSCF6791_lqu3vj
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221656/DSCF6839_gtx04o.jpg
+  public_id: DSCF6839_gtx04o
+  title: DSCF6839_gtx04o
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221656/DSCF7979_p7cpii.jpg
+  public_id: DSCF7979_p7cpii
+  title: DSCF7979_p7cpii
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221657/DSCF7993_atrg2n.jpg
+  public_id: DSCF7993_atrg2n
+  title: DSCF7993_atrg2n
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221659/DSCF7994_uk5rsg.jpg
+  public_id: DSCF7994_uk5rsg
+  title: DSCF7994_uk5rsg
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221660/DSCF8001_ycfbsr.jpg
+  public_id: DSCF8001_ycfbsr
+  title: DSCF8001_ycfbsr
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221660/DSCF8010_be3chq.jpg
+  public_id: DSCF8010_be3chq
+  title: DSCF8010_be3chq
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221668/DSCF8130_siogud.jpg
+  public_id: DSCF8130_siogud
+  title: DSCF8130_siogud
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221669/DSCF8149_jbgwyx.jpg
+  public_id: DSCF8149_jbgwyx
+  title: DSCF8149_jbgwyx
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221669/DSCF8157_skmvlg.jpg
+  public_id: DSCF8157_skmvlg
+  title: DSCF8157_skmvlg
+  caption: ''
+  category: landscapes
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221661/DSCF8096_ni28ed.jpg
+  public_id: DSCF8096_ni28ed
+  title: DSCF8096_ni28ed
+  caption: ''
+  category: backflips
+  featured: false
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221667/DSCF8110_cxvnlz.jpg
+  public_id: DSCF8110_cxvnlz
+  title: DSCF8110_cxvnlz
+  caption: ''
+  category: backflips
   featured: false

@@ -27,8 +27,8 @@
     <div class="hero-media" id="heroMedia" aria-hidden="true"></div>
     <div class="hero-shade"></div>
     <div class="hero-content">
-      <p class="hero-kicker">Galaxies, landscapes, and backflips"</h1>
-      <p>This is what like, do you like it too?</p>
+      <h1 class="hero-kicker"><span id="heroShuffleWord" class="hero-shuffle-word">Cosmic</span> exploration</h1>
+      <p>From distant galaxies to breathtaking landscapes and some scenic backflips</p>
       <div class="hero-progress" id="heroProgress" aria-hidden="true"></div>
     </div>
   </section>
@@ -36,7 +36,7 @@
   <section class="featured-gallery-section">
     <div class="featured-gallery-intro">
       <h2>Explore the portfolio</h2>
-      <p class="featured-gallery-lead">A collection of my best images, from space and of course our home planet</p>
+      <p class="featured-gallery-lead">A collection of my best images, from space and earth</p>
       <a class="portfolio-cta" href="portfolio.html">View full portfolio <span aria-hidden="true">&rarr;</span></a>
     </div>
     <div class="featured-gallery-grid" id="featuredGallery" aria-label="A selection from the portfolio"></div>
@@ -79,6 +79,52 @@
     }
 
     // --- Latest Posts Dynamic Loader ---
+    function initHeroTitleShuffle() {
+      const word = document.getElementById('heroShuffleWord');
+      if (!word) return;
+
+      const words = ['Cosmic', 'Alpine', 'Wildlife', 'acrobatic?'];
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      let index = 0;
+      let animating = false;
+
+      const rotateWord = () => {
+        if (animating) return;
+        index = (index + 1) % words.length;
+
+        if (prefersReducedMotion) {
+          word.textContent = words[index];
+          return;
+        }
+
+        animating = true;
+
+        word.animate(
+          [
+            { opacity: 1, transform: 'translateY(0)', filter: 'blur(0)' },
+            { opacity: 0, transform: 'translateY(-0.18em)', filter: 'blur(2px)' }
+          ],
+          { duration: 220, easing: 'ease-in', fill: 'forwards' }
+        ).finished
+          .then(() => {
+            word.textContent = words[index];
+            return word.animate(
+              [
+                { opacity: 0, transform: 'translateY(0.18em)', filter: 'blur(2px)' },
+                { opacity: 1, transform: 'translateY(0)', filter: 'blur(0)' }
+              ],
+              { duration: 320, easing: 'cubic-bezier(.22,.8,.24,1)', fill: 'forwards' }
+            ).finished;
+          })
+          .finally(() => {
+            animating = false;
+          });
+      };
+
+      const interval = window.setInterval(rotateWord, 3200);
+      window.addEventListener('pagehide', () => window.clearInterval(interval), { once: true });
+    }
+
     function loadHeroSlideshow() {
       const heroMedia = document.getElementById('heroMedia');
       const heroProgress = document.getElementById('heroProgress');
@@ -86,13 +132,15 @@
 
       const desktopSlides = [
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766351140/Background_tt0ooh.png' },
-        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198502/DSCF6777_iwmgiy.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786210002/ekorn_n0tjs5.jpg' },
         { type: 'video', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198172/bl%C3%A5isvatnet_backflip_spbqsf.mov' },
         { type: 'video', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198173/backflip_reinebringen_ooxw04.mp4' },
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg' },
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198763/DSCF1173_kkz2li.jpg' },
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00003_wko69l.jpg' },
-        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766342069/DSCF4816_o5swac.jpg' }
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766342069/DSCF4816_o5swac.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786212369/_12_jzl4am.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198501/DSCF6175_nbpi1j.jpg' }
       ];
 
       // Add portrait-oriented mobile photos here. Mobile uses the desktop set until this list has entries.
@@ -266,6 +314,7 @@
 
     // Load latest posts on DOMContentLoaded
     window.addEventListener('DOMContentLoaded', async () => {
+      initHeroTitleShuffle();
       loadHeroSlideshow();
       await loadFeaturedImages();
       const posts = await fetchLatestPosts();

@@ -479,6 +479,10 @@ body > *:not(.star-bg):not(.navbar):not(.lightbox):not(.lightbox-overlay) {
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
+.hero-shuffle-word {
+  display: inline-block;
+  min-width: 10ch;
+}
 .hero-content h1 {
   max-width: 720px;
   margin: 0 0 1.2rem;
@@ -2126,6 +2130,64 @@ footer {
   transform: translateX(4px);
 }
 
+/* Home contact CTA */
+.home-contact-cta {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 4vw 5rem;
+  background: #000;
+}
+.home-contact-cta-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid rgba(0,255,127,0.18);
+  border-radius: 0.8rem;
+  padding: 2.2rem 1.5rem;
+  background: rgba(24, 32, 32, 0.2);
+}
+.home-contact-cta-kicker {
+  margin-bottom: 0.75rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.home-contact-cta-heading {
+  margin: 0 0 0.8rem;
+  color: #fff;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.15;
+}
+.home-contact-cta-text {
+  margin: 0 0 1.4rem;
+  color: #b7c2be;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+.home-contact-cta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s, transform 0.2s;
+}
+.home-contact-cta-link span {
+  font-size: 1.2rem;
+}
+.home-contact-cta-link:hover,
+.home-contact-cta-link:focus-visible {
+  color: #fff;
+  transform: translateX(3px);
+}
+
 /* How I Shoot page */
 .process-page {
   background: #000;
@@ -2449,5 +2511,14 @@ footer {
   .home-about-preview-content > p:not(.home-about-preview-kicker) {
     margin-right: auto;
     margin-left: auto;
+  }
+  .home-contact-cta {
+    padding: 3.2rem 1.2rem 4rem;
+  }
+  .home-contact-cta-content {
+    padding: 1.8rem 1rem;
+  }
+  .home-contact-cta-text {
+    font-size: 1rem;
   }
 }
