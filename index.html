@@ -27,9 +27,8 @@
     <div class="hero-media" id="heroMedia" aria-hidden="true"></div>
     <div class="hero-shade"></div>
     <div class="hero-content">
-      <p class="hero-kicker">Photography by Sigurd Rolfsnes</p>
-      <h1>Uncovering the deep dark</h1>
-      <p>Space, landscapes, and the moments worth staying out for.</p>
+      <p class="hero-kicker">Galaxies, landscapes, and backflips"</h1>
+      <p>This is what like, do you like it too?</p>
       <div class="hero-progress" id="heroProgress" aria-hidden="true"></div>
     </div>
   </section>
@@ -37,7 +36,7 @@
   <section class="featured-gallery-section">
     <div class="featured-gallery-intro">
       <h2>Explore the portfolio</h2>
-      <p class="featured-gallery-lead">A collection of my best images, from space and of course our lovely earth</p>
+      <p class="featured-gallery-lead">A collection of my best images, from space and of course our home planet</p>
       <a class="portfolio-cta" href="portfolio.html">View full portfolio <span aria-hidden="true">&rarr;</span></a>
     </div>
     <div class="featured-gallery-grid" id="featuredGallery" aria-label="A selection from the portfolio"></div>
@@ -45,12 +44,12 @@
 
   <section class="home-about-preview" aria-labelledby="home-about-title">
     <div class="home-about-preview-image">
-      <img src="https://res.cloudinary.com/duugpqtue/image/upload/v1766351236/DSCF9222_pvt2oh.jpg" alt="Portrait of Sigurd Rolfsnes" loading="lazy">
+      <img src="https://res.cloudinary.com/duugpqtue/image/upload/v1786208814/322A8401_sjffci.jpg" alt="Portrait of Sigurd Rolfsnes" loading="lazy">
     </div>
     <div class="home-about-preview-content">
       <p class="home-about-preview-kicker">Behind the lens</p>
-      <h2 id="home-about-title">Hello, I'm Sigurd</h2>
-      <p>I am a photographer, applied physics and mathematics student, and NTNUI Gymnastics instructor based in Trondheim.</p>
+      <h3 id="home-about-title">Hello, I'm Sigurd</h3>
+      <p>I am a 22 year old photographer, physics and mathematics student, and NTNUI Gymnastics instructor based in Trondheim.</p>
       <a class="home-about-preview-link" href="about.html">About me <span aria-hidden="true">&rarr;</span></a>
     </div>
   </section>
@@ -85,13 +84,29 @@
       const heroProgress = document.getElementById('heroProgress');
       if (!heroMedia) return;
 
-      const slides = [
+      const desktopSlides = [
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766351140/Background_tt0ooh.png' },
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198502/DSCF6777_iwmgiy.jpg' },
         { type: 'video', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198172/bl%C3%A5isvatnet_backflip_spbqsf.mov' },
         { type: 'video', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198173/backflip_reinebringen_ooxw04.mp4' },
-        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766351140/Background_tt0ooh.png' },
-        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg' }
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198763/DSCF1173_kkz2li.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00003_wko69l.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766342069/DSCF4816_o5swac.jpg' }
       ];
+
+      // Add portrait-oriented mobile photos here. Mobile uses the desktop set until this list has entries.
+      const mobileSlides = [
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198501/DSCF6177_ox3x64.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198500/DSCF6682_rbatxu.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786208819/DSCF3815_o5poxp.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198172/bl%C3%A5isvatnet_backflip_spbqsf.mov'},
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198502/DSCF6777_iwmgiy.jpg' }
+      ];
+
+      const slides = (window.matchMedia('(max-width: 700px)').matches && mobileSlides.length)
+        ? [...mobileSlides]
+        : [...desktopSlides];
 
       for (let index = slides.length - 1; index > 0; index--) {
         const randomIndex = Math.floor(Math.random() * (index + 1));
@@ -204,10 +219,8 @@
         items.splice(6);
 
         items.forEach(item => {
-          const card = document.createElement('a');
+          const card = document.createElement('div');
           card.className = 'highlight-image-card';
-          card.href = `portfolio.html?image=${encodeURIComponent(item.url)}`;
-          card.setAttribute('aria-label', `View ${item.title || item.public_id || 'photograph'} in portfolio`);
 
           const image = document.createElement('img');
           image.className = 'highlight-image';
@@ -215,11 +228,7 @@
           image.alt = item.title || item.public_id || 'Featured photograph';
           image.loading = 'lazy';
 
-          const title = document.createElement('div');
-          title.className = 'highlight-image-title';
-          title.textContent = item.title || item.public_id || 'Untitled';
-
-          card.append(image, title);
+          card.appendChild(image);
           gallery.appendChild(card);
         });
       } catch (error) {
