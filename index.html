@@ -63,17 +63,17 @@
   <script>
     // Hamburger menu toggle for all pages
     const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    if (hamburger && navLinks) {
+    const menuLinks = document.querySelector('.nav-links');
+    if (hamburger && menuLinks) {
       hamburger.addEventListener('click', function() {
-        navLinks.classList.toggle('open');
+        menuLinks.classList.toggle('open');
         const expanded = hamburger.getAttribute('aria-expanded') === 'true';
         hamburger.setAttribute('aria-expanded', !expanded);
       });
-      navLinks.querySelectorAll('a').forEach(link => {
+      menuLinks.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', () => {
           if (window.innerWidth <= 800) {
-            navLinks.classList.remove('open');
+            menuLinks.classList.remove('open');
             hamburger.setAttribute('aria-expanded', 'false');
           }
         });
@@ -268,7 +268,6 @@
     const starBg = document.querySelector('.star-bg');
     if (starBg) {
       const numStars = 120;
-      const stars = [];
       for (let i = 0; i < numStars; i++) {
         const star = document.createElement('div');
         star.className = 'star';
@@ -278,17 +277,8 @@
         star.style.top = `${Math.random() * 100}%`;
         star.style.left = `${Math.random() * 100}%`;
         star.style.opacity = 0.5 + Math.random() * 0.5;
-        star.dataset.depth = 0.2 + Math.random() * 0.8;
         starBg.appendChild(star);
-        stars.push(star);
       }
-      window.addEventListener('scroll', () => {
-        const scrollY = window.scrollY;
-        stars.forEach(star => {
-          const depth = parseFloat(star.dataset.depth);
-          star.style.transform = `translateY(${scrollY * depth}px)`;
-        });
-      });
     }
   </script>
   <style>
