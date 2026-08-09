@@ -504,7 +504,12 @@ function renderPortfolio(category) {
     img.style.setProperty('--i', index + 1);
     img.addEventListener('click', () => openLightbox(item.url, items.map(entry => entry.url)));
 
+    const title = document.createElement('div');
+    title.className = 'portfolio-img-title';
+    title.textContent = item.title || item.public_id || 'Untitled';
+
     wrapper.appendChild(img);
+    wrapper.appendChild(title);
     portfolioGallery.appendChild(wrapper);
   });
 
