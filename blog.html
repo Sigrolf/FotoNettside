@@ -255,25 +255,6 @@
     <p>&copy; 2025 Sigurd Rolfsnes. All rights reserved.</p>
   </footer>
   <script>
-    // Hamburger menu toggle for all pages
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    if (hamburger && navLinks) {
-      hamburger.addEventListener('click', function() {
-        navLinks.classList.toggle('open');
-        const expanded = hamburger.getAttribute('aria-expanded') === 'true';
-        hamburger.setAttribute('aria-expanded', !expanded);
-      });
-      navLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          if (window.innerWidth <= 800) {
-            navLinks.classList.remove('open');
-            hamburger.setAttribute('aria-expanded', 'false');
-          }
-        });
-      });
-    }
-
     // List of blog post files (add new posts here)
     // Automatically list all blog post files in the blog folder
     async function getBlogPostFiles() {

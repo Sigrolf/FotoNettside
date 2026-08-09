@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="star-bg"></div>
   <!-- ...existing navbar... -->
   <nav class="navbar">
     <div class="logo">SIGURD ROLFSNES</div>
@@ -88,24 +87,6 @@ if (dropdownToggle && dropdownMenu) {
 }
 </script>
   <script>
-    // Hamburger menu toggle for all pages
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    if (hamburger && navLinks) {
-      hamburger.addEventListener('click', function() {
-        navLinks.classList.toggle('open');
-        const expanded = hamburger.getAttribute('aria-expanded') === 'true';
-        hamburger.setAttribute('aria-expanded', !expanded);
-      });
-      navLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          if (window.innerWidth <= 800) {
-            navLinks.classList.remove('open');
-            hamburger.setAttribute('aria-expanded', 'false');
-          }
-        });
-      });
-    }
     // Starry background animation
     const starBg = document.querySelector('.star-bg');
     if (starBg) {

@@ -5,6 +5,7 @@
   caption: 'After a small hike from the parking lot we found this small earth hut in the woods. It is an NTNUI cabin and very hidden.'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342019/DJI_0180_boxoiz.jpg
   public_id: DJI_0180_boxoiz
@@ -12,6 +13,7 @@
   caption: 'Captured using dji avata drone, taken above Hellesylt looking out toward the geiranger fjord'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342020/DSCF1866_oz7tba.jpg
   public_id: DSCF1866_oz7tba
@@ -19,6 +21,7 @@
   caption: 'Taken in june 2024, at the beginning of our 2 week california roadtrip'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342020/DSCF2037_wfrbvy.jpg
   public_id: DSCF2037_wfrbvy
@@ -26,6 +29,7 @@
   caption: 'Not quite a landscape, taken june 2024 during my roadtrip in california'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342020/DSCF2053_ape5sc.jpg
   public_id: DSCF2053_ape5sc
@@ -33,6 +37,7 @@
   caption: 'june 2024, sunset over the hollywood hills'
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342021/DSCF2118_do6jyt.jpg
   public_id: DSCF2118_do6jyt
@@ -40,6 +45,7 @@
   caption: 'Taken from griffith observator, june 2024'
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342021/DSCF2134_haqhxj.jpg
   public_id: DSCF2134_haqhxj
@@ -47,6 +53,7 @@
   caption: 'yup, the LA skyline from griffith obersvatory in twilight, very cool!'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342022/DSCF2211_slxqkv.jpg
   public_id: DSCF2211_slxqkv
@@ -54,6 +61,7 @@
   caption: 'Taken a bit of north of Malibu, june 2024'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342023/DSCF2249_zgmvvu.jpg
   public_id: DSCF2249_zgmvvu
@@ -61,6 +69,7 @@
   caption: 'This is the beginning of carmel valley, a bit south of monterey. Taken june 2024'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342023/DSCF2288_nw6ia8.jpg
   public_id: DSCF2288_nw6ia8
@@ -68,6 +77,7 @@
   caption: 'Road winding between hills in carmel valley california, june 2024'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342024/DSCF2307_mtrhvd.jpg
   public_id: DSCF2307_mtrhvd
@@ -75,6 +85,7 @@
   caption: 'Driving on the big sur coast was an amazing expereince with views all around'
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342025/DSCF2319_q5cw4b.jpg
   public_id: DSCF2319_q5cw4b
@@ -82,6 +93,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342025/DSCF2343_kaw3al.jpg
   public_id: DSCF2343_kaw3al
@@ -89,6 +101,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342026/DSCF2357_afxg11.jpg
   public_id: DSCF2357_afxg11
@@ -96,6 +109,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342026/DSCF2378_mj4h1g.jpg
   public_id: DSCF2378_mj4h1g
@@ -103,6 +117,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342027/DSCF2745_si0m81.jpg
   public_id: DSCF2745_si0m81
@@ -110,6 +125,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342027/DSCF2775_afgtjd.jpg
   public_id: DSCF2775_afgtjd
@@ -117,6 +133,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342028/DSCF2781_ot9cwr.jpg
   public_id: DSCF2781_ot9cwr
@@ -124,6 +141,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342029/DSCF2839_tybnda.jpg
   public_id: DSCF2839_tybnda
@@ -131,6 +149,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342029/DSCF2842_oab7qu.jpg
   public_id: DSCF2842_oab7qu
@@ -138,6 +157,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342030/DSCF2861_ftpd8a.jpg
   public_id: DSCF2861_ftpd8a
@@ -145,6 +165,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342031/DSCF2890_mjvaub.jpg
   public_id: DSCF2890_mjvaub
@@ -152,6 +173,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342032/DSCF2891_btjdfc.jpg
   public_id: DSCF2891_btjdfc
@@ -159,6 +181,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342032/DSCF2934_ofv190.jpg
   public_id: DSCF2934_ofv190
@@ -166,6 +189,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342032/DSCF3014_hpuhkk.jpg
   public_id: DSCF3014_hpuhkk
@@ -173,6 +197,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342033/DSCF3029_lbbzzc.jpg
   public_id: DSCF3029_lbbzzc
@@ -180,6 +205,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342034/DSCF3106_trdqyf.jpg
   public_id: DSCF3106_trdqyf
@@ -187,6 +213,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342035/DSCF3178-Edit_os94dm.jpg
   public_id: DSCF3178-Edit_os94dm
@@ -194,6 +221,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342035/DSCF3189_ae99fz.jpg
   public_id: DSCF3189_ae99fz
@@ -201,6 +229,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342036/DSCF3210_cibz8b.jpg
   public_id: DSCF3210_cibz8b
@@ -208,6 +237,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342037/DSCF3214_ugyhm5.jpg
   public_id: DSCF3214_ugyhm5
@@ -215,6 +245,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342037/DSCF3217_adqdcu.jpg
   public_id: DSCF3217_adqdcu
@@ -222,6 +253,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342038/DSCF3265_nwuol7.jpg
   public_id: DSCF3265_nwuol7
@@ -229,6 +261,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342039/DSCF3314_bhkhfn.jpg
   public_id: DSCF3314_bhkhfn
@@ -236,6 +269,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342039/DSCF3320_zxbaia.jpg
   public_id: DSCF3320_zxbaia
@@ -243,6 +277,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342040/DSCF3339_pebudn.jpg
   public_id: DSCF3339_pebudn
@@ -250,6 +285,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342040/DSCF3450_j9lx8q.jpg
   public_id: DSCF3450_j9lx8q
@@ -257,6 +293,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342041/DSCF3451_bqnwop.jpg
   public_id: DSCF3451_bqnwop
@@ -264,6 +301,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342042/DSCF3480_ltfz1z.jpg
   public_id: DSCF3480_ltfz1z
@@ -271,6 +309,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342042/DSCF3483-Enhanced-NR_h62vir.jpg
   public_id: DSCF3483-Enhanced-NR_h62vir
@@ -278,6 +317,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342043/DSCF3525_p8b8lk.jpg
   public_id: DSCF3525_p8b8lk
@@ -285,6 +325,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342044/DSCF3565_xjij6e.jpg
   public_id: DSCF3565_xjij6e
@@ -292,6 +333,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342045/DSCF3585_hjbtsq.jpg
   public_id: DSCF3585_hjbtsq
@@ -299,6 +341,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342045/DSCF3657_itwtji.jpg
   public_id: DSCF3657_itwtji
@@ -306,6 +349,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342046/DSCF3671_qlqdxm.jpg
   public_id: DSCF3671_qlqdxm
@@ -313,6 +357,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342046/DSCF3711-Enhanced-NR_pmbzex.jpg
   public_id: DSCF3711-Enhanced-NR_pmbzex
@@ -320,6 +365,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342047/DSCF3720_lfmh9m.jpg
   public_id: DSCF3720_lfmh9m
@@ -327,6 +373,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342048/DSCF3779_iizfhx.jpg
   public_id: DSCF3779_iizfhx
@@ -334,6 +381,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342049/DSCF3794_ezvrgz.jpg
   public_id: DSCF3794_ezvrgz
@@ -341,6 +389,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342049/DSCF3795_ylvkzq.jpg
   public_id: DSCF3795_ylvkzq
@@ -348,6 +397,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342050/DSCF3815_lohorv.jpg
   public_id: DSCF3815_lohorv
@@ -355,6 +405,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342051/DSCF3966-Enhanced-NR_zsojwe.jpg
   public_id: DSCF3966-Enhanced-NR_zsojwe
@@ -362,6 +413,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342051/DSCF3969_suktd2.jpg
   public_id: DSCF3969_suktd2
@@ -369,6 +421,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342052/DSCF3979_tgeqg1.jpg
   public_id: DSCF3979_tgeqg1
@@ -376,6 +429,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342053/DSCF4023_ipxj7r.jpg
   public_id: DSCF4023_ipxj7r
@@ -383,6 +437,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342053/DSCF4027_wwlcuy.jpg
   public_id: DSCF4027_wwlcuy
@@ -390,6 +445,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342054/DSCF4051_z1canh.jpg
   public_id: DSCF4051_z1canh
@@ -397,6 +453,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342054/DSCF4078_fobndb.jpg
   public_id: DSCF4078_fobndb
@@ -404,6 +461,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342056/DSCF4206_py6hzh.jpg
   public_id: DSCF4206_py6hzh
@@ -411,6 +469,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342056/DSCF4211_j90fxx.jpg
   public_id: DSCF4211_j90fxx
@@ -418,6 +477,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342056/DSCF4238_ycotts.jpg
   public_id: DSCF4238_ycotts
@@ -425,6 +485,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342057/DSCF4243_o8euyu.jpg
   public_id: DSCF4243_o8euyu
@@ -432,6 +493,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342057/DSCF4275_abtmyd.jpg
   public_id: DSCF4275_abtmyd
@@ -439,6 +501,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342058/DSCF4297_svrt3v.jpg
   public_id: DSCF4297_svrt3v
@@ -446,6 +509,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342058/DSCF4320_zxdry0.jpg
   public_id: DSCF4320_zxdry0
@@ -453,6 +517,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342058/DSCF4333_c0iczx.jpg
   public_id: DSCF4333_c0iczx
@@ -460,6 +525,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342059/DSCF4348_wbvunq.jpg
   public_id: DSCF4348_wbvunq
@@ -467,6 +533,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342059/DSCF4382_imyh15.jpg
   public_id: DSCF4382_imyh15
@@ -474,6 +541,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342060/DSCF4391_t9gpid.jpg
   public_id: DSCF4391_t9gpid
@@ -481,6 +549,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342060/DSCF4412_newaro.jpg
   public_id: DSCF4412_newaro
@@ -488,6 +557,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342061/DSCF4492_qbuhxa.jpg
   public_id: DSCF4492_qbuhxa
@@ -495,6 +565,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342061/DSCF4522_zzbob9.jpg
   public_id: DSCF4522_zzbob9
@@ -502,6 +573,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342062/DSCF4524_uwuxru.jpg
   public_id: DSCF4524_uwuxru
@@ -509,6 +581,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342062/DSCF4525_vopr71.jpg
   public_id: DSCF4525_vopr71
@@ -516,6 +589,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342063/DSCF4528_qyv8gi.jpg
   public_id: DSCF4528_qyv8gi
@@ -523,6 +597,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342063/DSCF4538_ivfehm.jpg
   public_id: DSCF4538_ivfehm
@@ -530,6 +605,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342063/DSCF4570_s8uxqn.jpg
   public_id: DSCF4570_s8uxqn
@@ -537,6 +613,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342064/DSCF4704_j85s5n.jpg
   public_id: DSCF4704_j85s5n
@@ -544,6 +621,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342064/DSCF4767_on10dw.jpg
   public_id: DSCF4767_on10dw
@@ -551,6 +629,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 4
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342065/DSCF4768_egqnyc.jpg
   public_id: DSCF4768_egqnyc
@@ -558,6 +637,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342065/DSCF4773_zabng2.jpg
   public_id: DSCF4773_zabng2
@@ -565,6 +645,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342066/DSCF4778_udxtkw.jpg
   public_id: DSCF4778_udxtkw
@@ -572,6 +653,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342066/DSCF4785_fbfcp1.jpg
   public_id: DSCF4785_fbfcp1
@@ -579,6 +661,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342067/DSCF4797_pk6pgd.jpg
   public_id: DSCF4797_pk6pgd
@@ -586,6 +669,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342067/DSCF4799_smrwec.jpg
   public_id: DSCF4799_smrwec
@@ -593,6 +677,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342068/DSCF4802_qoard6.jpg
   public_id: DSCF4802_qoard6
@@ -600,6 +685,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342068/DSCF4807_hsgodd.jpg
   public_id: DSCF4807_hsgodd
@@ -607,6 +693,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342068/DSCF4813_grexid.jpg
   public_id: DSCF4813_grexid
@@ -614,6 +701,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342069/DSCF4816_o5swac.jpg
   public_id: DSCF4816_o5swac
@@ -621,6 +709,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342069/DSCF4818_n3g696.jpg
   public_id: DSCF4818_n3g696
@@ -628,6 +717,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342070/DSCF4825_ahpsfv.jpg
   public_id: DSCF4825_ahpsfv
@@ -635,6 +725,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342070/DSCF4827_qpwbi1.jpg
   public_id: DSCF4827_qpwbi1
@@ -642,6 +733,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342071/DSCF4828_tpdum6.jpg
   public_id: DSCF4828_tpdum6
@@ -649,6 +741,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342071/DSCF4836_yyvyb8.jpg
   public_id: DSCF4836_yyvyb8
@@ -656,6 +749,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342072/DSCF4844_dxakje.jpg
   public_id: DSCF4844_dxakje
@@ -663,6 +757,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342072/DSCF4858_pr3qf0.jpg
   public_id: DSCF4858_pr3qf0
@@ -670,6 +765,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342073/DSCF4869_naag2z.jpg
   public_id: DSCF4869_naag2z
@@ -677,6 +773,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342073/DSCF4880_vhioq5.jpg
   public_id: DSCF4880_vhioq5
@@ -684,6 +781,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342074/DSCF4960_fy5aqd.jpg
   public_id: DSCF4960_fy5aqd
@@ -691,6 +789,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342074/DSCF5005_gghzqt.jpg
   public_id: DSCF5005_gghzqt
@@ -698,6 +797,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342075/DSCF5033_czo0a3.jpg
   public_id: DSCF5033_czo0a3
@@ -705,6 +805,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342075/DSCF5039_em0dax.jpg
   public_id: DSCF5039_em0dax
@@ -712,6 +813,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342076/DSCF5042_nkfzun.jpg
   public_id: DSCF5042_nkfzun
@@ -719,6 +821,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342076/DSCF5082_tavtrb.jpg
   public_id: DSCF5082_tavtrb
@@ -726,6 +829,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342077/DSCF5086_mbyghr.jpg
   public_id: DSCF5086_mbyghr
@@ -733,6 +837,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342077/DSCF5769_hjlyut.jpg
   public_id: DSCF5769_hjlyut
@@ -740,6 +845,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342078/DSCF5994_b2vkes.jpg
   public_id: DSCF5994_b2vkes
@@ -747,6 +853,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342144/DSCF8003_acmmxd.jpg
   public_id: DSCF8003_acmmxd
@@ -754,6 +861,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342019/_DSF9305_peji3a.jpg
   public_id: _DSF9305_peji3a
@@ -761,6 +869,7 @@
   caption: ''
   category: landscapes
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348916/_00001_h6oaxe.jpg
   public_id: Andromeda_galaxy
@@ -770,6 +879,7 @@
     spiral galaxy to our Milky Way. With over a trillion stars.
   category: astro
   featured: true
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg
   public_id: Orions_belt
@@ -777,6 +887,7 @@
   caption: 'this is Orion''s Belt. Taken from Namdalseid, Norway'
   category: astro
   featured: true
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348917/_00002_fv08zm.jpg
   public_id: Milky_way
@@ -784,6 +895,7 @@
   caption: 'Our own Milky way taken from jonsvatnet outside Trondheim, Norway.'
   category: astro
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00003_wko69l.jpg
   public_id: The Pleiades
@@ -791,6 +903,7 @@
   caption: 'Pleiades is a star cluster also known as the Seven Sisters. Fun fact: it is mentioned in the Bible. in the books of Job (Job 9:9, Job 38:31) and Amos (Amos 5:8)'
   category: astro
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00004_ml4xi0.jpg
   public_id: Bode and Cigar Galaxy
@@ -798,6 +911,7 @@
   caption: 'Bode and cigar galaxy are two galaxies located in the constellation Ursa Major. This is a widefield image showing both galaxies along with several stars in the foreground. They are unbelievably far away, with Bode galaxy being about 12 million light years away and Cigar galaxy about 11 million light years away.'
   category: astro
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00005_ktgggr.jpg
   public_id: Bode_and_Cigar_Galaxy
@@ -805,6 +919,7 @@
   caption: ''
   category: astro
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00007_llt9si.jpg
   public_id: Heart and soul Nebula
@@ -812,6 +927,7 @@
   caption: 'This is unstracked and very edited, so this is not very real as to how it looks'
   category: astro
   featured: true
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348920/_00008_h2wyy9.jpg
   public_id: The Moon
@@ -819,6 +935,7 @@
   caption: 'The Moon taken with a 200mm lens from Trondheim, Norway. HDR processed to bring out more details.'
   category: astro
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348920/_00009_py99kt.jpg
   public_id: Trifid Nebula
@@ -826,6 +943,7 @@
   caption: ''
   category: astro
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1768598487/4_5Format_T__v4trcb.png
   public_id: Triangulum Galaxy
@@ -833,6 +951,7 @@
   caption: ''
   category: astro
   featured: false
+  stars: 3
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348929/_00011_ipnotn.jpg
   public_id: Eagle Nebula
@@ -840,66 +959,77 @@
   caption: 'The Eagle Nebula (catalogued as Messier 16 or M16, and as NGC 6611, and also known as the Star Queen Nebula) is a young open cluster of stars in the constellation Serpens, discovered by Jean-Philippe de Cheseaux in 1745–46. Both the "Eagle" and the "Star Queen" refer to visual impressions of the dark silhouette near the center of the nebula,[4][5] an area made famous as the "Pillars of Creation" imaged by the Hubble Space Telescope. The nebula contains several active star-forming gas and dust regions, including the aforementioned Pillars of Creation. The Eagle Nebula lies in the Sagittarius Arm of the Milky Way.'
   category: astro
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348965/_10_a5lyzo.jpg
   public_id: _10_a5lyzo
   title: _10_a5lyzo
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348967/_11_oexskf.jpg
   public_id: _11_oexskf
   title: _11_oexskf
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348959/_14_ix2bwq.jpg
   public_id: _14_ix2bwq
   title: _14_ix2bwq
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348956/_15_nfg0o8.jpg
   public_id: _15_nfg0o8
   title: _15_nfg0o8
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348953/_19_k7qc0g.jpg
   public_id: _19_k7qc0g
   title: _19_k7qc0g
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348950/_20_afchq2.jpg
   public_id: _20_afchq2
   title: _20_afchq2
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348950/_21_f0bfkd.jpg
   public_id: _21_f0bfkd
   title: _21_f0bfkd
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348957/_2_zz1i6e.jpg
   public_id: _2_zz1i6e
   title: _2_zz1i6e
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348962/_4_cb5tdn.jpg
   public_id: _4_cb5tdn
   title: _4_cb5tdn
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348952/_9_nqd3g6.jpg
   public_id: _9_nqd3g6
   title: _9_nqd3g6
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348958/denoise_DSF1314_kswrra.jpg
   public_id: denoise_DSF1314_kswrra
@@ -907,6 +1037,7 @@
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348954/lundefugl_20_1_otpfjb.jpg
   public_id: lundefugl_20_1_otpfjb
@@ -914,393 +1045,459 @@
   caption: ''
   category: wildlife
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133325/322A0132_ayeene.jpg
   public_id: 322A0132_ayeene
   title: 322A0132_ayeene
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133325/DSCF1367_b8xwpi.jpg
   public_id: DSCF1367_b8xwpi
   title: DSCF1367_b8xwpi
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133326/DSCF1400_suhrwk.jpg
   public_id: DSCF1400_suhrwk
   title: DSCF1400_suhrwk
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133326/DSCF1474_lvqfov.jpg
   public_id: DSCF1474_lvqfov
   title: DSCF1474_lvqfov
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133327/DSCF1534_lricrh.jpg
   public_id: DSCF1534_lricrh
   title: DSCF1534_lricrh
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133326/DSCF1596_gavh7i.jpg
   public_id: DSCF1596_gavh7i
   title: DSCF1596_gavh7i
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133327/DSCF1643_t09py1.jpg
   public_id: DSCF1643_t09py1
   title: DSCF1643_t09py1
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133327/DSCF1681_yiruab.jpg
   public_id: DSCF1681_yiruab
   title: DSCF1681_yiruab
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133328/DSCF1716_pheaq1.jpg
   public_id: DSCF1716_pheaq1
   title: DSCF1716_pheaq1
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133328/DSCF1722_zom2tu.jpg
   public_id: DSCF1722_zom2tu
   title: DSCF1722_zom2tu
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133329/DSCF1723_fhgqia.jpg
   public_id: DSCF1723_fhgqia
   title: DSCF1723_fhgqia
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133329/DSCF2108-2_og3dcp.jpg
   public_id: DSCF2108-2_og3dcp
   title: DSCF2108-2_og3dcp
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133330/DSCF2151_pdrh2a.jpg
   public_id: DSCF2151_pdrh2a
   title: DSCF2151_pdrh2a
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133330/DSCF2160-2_xpam7w.jpg
   public_id: DSCF2160-2_xpam7w
   title: DSCF2160-2_xpam7w
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133331/DSCF2166-2_vagbnk.jpg
   public_id: DSCF2166-2_vagbnk
   title: DSCF2166-2_vagbnk
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133331/DSCF2184_aepvtv.jpg
   public_id: DSCF2184_aepvtv
   title: DSCF2184_aepvtv
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133332/DSCF2193_svqjiy.jpg
   public_id: DSCF2193_svqjiy
   title: DSCF2193_svqjiy
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133332/DSCF2332-2_rsff47.jpg
   public_id: DSCF2332-2_rsff47
   title: DSCF2332-2_rsff47
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133333/DSCF2389-2_z7okgl.jpg
   public_id: DSCF2389-2_z7okgl
   title: DSCF2389-2_z7okgl
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133333/DSCF2425_cpkfwj.jpg
   public_id: DSCF2425_cpkfwj
   title: DSCF2425_cpkfwj
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133334/DSCF2433_ma9cct.jpg
   public_id: DSCF2433_ma9cct
   title: DSCF2433_ma9cct
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133334/DSCF2548_qqizgh.jpg
   public_id: DSCF2548_qqizgh
   title: DSCF2548_qqizgh
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133336/DSCF2564_oxvzhk.jpg
   public_id: DSCF2564_oxvzhk
   title: DSCF2564_oxvzhk
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133336/DSCF2616_yirn0w.jpg
   public_id: DSCF2616_yirn0w
   title: DSCF2616_yirn0w
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133336/DSCF2625_iowtv4.jpg
   public_id: DSCF2625_iowtv4
   title: DSCF2625_iowtv4
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133336/DSCF2631_voqsge.jpg
   public_id: DSCF2631_voqsge
   title: DSCF2631_voqsge
   caption: ''
   category: landscapes
   featured: false
+  stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133337/DSCF2663_clmbub.jpg
   public_id: DSCF2663_clmbub
   title: DSCF2663_clmbub
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133338/DSCF2665_xllwck.jpg
   public_id: DSCF2665_xllwck
   title: DSCF2665_xllwck
   caption: ''
   category: landscapes
   featured: false
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198502/322A8551_ejntdo.jpg
   public_id: 322A8551_ejntdo
   title: 322A8551_ejntdo
   caption: ''
   category: backflips
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198501/DSCF6177_ox3x64.jpg
   public_id: DSCF6177_ox3x64
   title: DSCF6177_ox3x64
   caption: ''
   category: backflips
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198500/DSCF6682_rbatxu.jpg
   public_id: DSCF6682_rbatxu
   title: DSCF6682_rbatxu
   caption: ''
   category: backflips
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198502/DSCF6777_iwmgiy.jpg
   public_id: DSCF6777_iwmgiy
   title: DSCF6777_iwmgiy
   caption: ''
   category: backflips
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198500/DSCF7765_uabuch.jpg
   public_id: DSCF7765_uabuch
   title: DSCF7765_uabuch
   caption: ''
   category: backflips
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212353/_1_dvwl3k.jpg
   public_id: _1_dvwl3k
   title: _1_dvwl3k
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212369/_12_jzl4am.jpg
   public_id: _12_jzl4am
   title: _12_jzl4am
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348962/_13_yq7qzt.jpg
   public_id: _13_yq7qzt
   title: _13_yq7qzt
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212378/_16_z9xl3r.jpg
   public_id: _16_z9xl3r
   title: _16_z9xl3r
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212379/_17_cksfds.jpg
   public_id: _17_cksfds
   title: _17_cksfds
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212382/_18_gmfgx4.jpg
   public_id: _18_gmfgx4
   title: _18_gmfgx4
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212384/_19_vbjtnk.jpg
   public_id: _19_vbjtnk
   title: _19_vbjtnk
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212349/_2_nozxks.jpg
   public_id: _2_nozxks
   title: _2_nozxks
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212386/_20_gmirnk.jpg
   public_id: _20_gmirnk
   title: _20_gmirnk
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212351/_3_vvlsjk.jpg
   public_id: _3_vvlsjk
   title: _3_vvlsjk
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212352/_4_ahhydl.jpg
   public_id: _4_ahhydl
   title: _4_ahhydl
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212355/_5_hvixtm.jpg
   public_id: _5_hvixtm
   title: _5_hvixtm
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212358/_6_g5xeax.jpg
   public_id: _6_g5xeax
   title: _6_g5xeax
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212359/_7_hjsyvk.jpg
   public_id: _7_hjsyvk
   title: _7_hjsyvk
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212362/_8_kreqfm.jpg
   public_id: _8_kreqfm
   title: _8_kreqfm
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786210002/ekorn_n0tjs5.jpg
   public_id: ekorn_n0tjs5
   title: ekorn_n0tjs5
   caption: ''
   category: wildlife
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221653/DJI_0197-Edit_aubmjk.jpg
   public_id: DJI_0197-Edit_aubmjk
   title: DJI_0197-Edit_aubmjk
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221654/DJI_0247-Edit_xzcwqh.jpg
   public_id: DJI_0247-Edit_xzcwqh
   title: DJI_0247-Edit_xzcwqh
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221654/DSCF5487_spyf5v.jpg
   public_id: DSCF5487_spyf5v
   title: DSCF5487_spyf5v
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221655/DSCF6729_q1fp1t.jpg
   public_id: DSCF6729_q1fp1t
   title: DSCF6729_q1fp1t
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221655/DSCF6791_lqu3vj.jpg
   public_id: DSCF6791_lqu3vj
   title: DSCF6791_lqu3vj
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221656/DSCF6839_gtx04o.jpg
   public_id: DSCF6839_gtx04o
   title: DSCF6839_gtx04o
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221656/DSCF7979_p7cpii.jpg
   public_id: DSCF7979_p7cpii
   title: DSCF7979_p7cpii
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221657/DSCF7993_atrg2n.jpg
   public_id: DSCF7993_atrg2n
   title: DSCF7993_atrg2n
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221659/DSCF7994_uk5rsg.jpg
   public_id: DSCF7994_uk5rsg
   title: DSCF7994_uk5rsg
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221660/DSCF8001_ycfbsr.jpg
   public_id: DSCF8001_ycfbsr
   title: DSCF8001_ycfbsr
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221660/DSCF8010_be3chq.jpg
   public_id: DSCF8010_be3chq
   title: DSCF8010_be3chq
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221668/DSCF8130_siogud.jpg
   public_id: DSCF8130_siogud
   title: DSCF8130_siogud
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221669/DSCF8149_jbgwyx.jpg
   public_id: DSCF8149_jbgwyx
   title: DSCF8149_jbgwyx
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221669/DSCF8157_skmvlg.jpg
   public_id: DSCF8157_skmvlg
   title: DSCF8157_skmvlg
   caption: ''
   category: landscapes
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221661/DSCF8096_ni28ed.jpg
   public_id: DSCF8096_ni28ed
   title: DSCF8096_ni28ed
   caption: ''
   category: backflips
   featured: false
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221667/DSCF8110_cxvnlz.jpg
   public_id: DSCF8110_cxvnlz
   title: DSCF8110_cxvnlz
   caption: ''
   category: backflips
   featured: false
+  stars: 1

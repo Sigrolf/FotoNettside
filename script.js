@@ -181,9 +181,6 @@ function showLightboxImage(idx) {
   // Responsive, animated details panel markup
   detailsPanel.innerHTML = `
     <div class="lightbox-details-panel-row"><strong>Description:</strong> <span>${currentImageData.description || 'N/A'}</span></div>
-    <div class="lightbox-details-panel-row"><strong>Date:</strong> <span>${currentImageData.date || 'N/A'}</span></div>
-    <div class="lightbox-details-panel-row"><strong>Camera:</strong> <span>${currentImageData.camera || 'N/A'}</span></div>
-    <div class="lightbox-details-panel-row"><strong>Settings:</strong> <span>${currentImageData.settings || 'N/A'}</span></div>
   `;
   detailsBtn.setAttribute('aria-expanded', 'false');
   detailsPanel.setAttribute('aria-hidden', 'true');
@@ -443,7 +440,15 @@ function normalizeCategory(category) {
 
 function getPortfolioItems(category) {
   const normalizedCategory = normalizeCategory(category);
-  return portfolioItems.filter(item => item.category === normalizedCategory);
+  return portfolioItems
+    .map((item, index) => ({ ...item, __order: index }))
+    .filter(item => item.category === normalizedCategory)
+    .sort((a, b) => {
+      const aStars = Number(a.stars) || 1;
+      const bStars = Number(b.stars) || 1;
+      if (bStars !== aStars) return bStars - aStars;
+      return a.__order - b.__order;
+    });
 }
 
 function buildPortfolioMetaLookup(items) {

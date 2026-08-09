@@ -32,16 +32,6 @@
       <div class="hero-progress" id="heroProgress" aria-hidden="true"></div>
     </div>
   </section>
-  <!-- Portfolio invitation -->
-  <section class="featured-gallery-section">
-    <div class="featured-gallery-intro">
-      <h2>Explore the portfolio</h2>
-      <p class="featured-gallery-lead">A collection of my best images, from space and earth</p>
-      <a class="portfolio-cta" href="portfolio.html">View full portfolio <span aria-hidden="true">&rarr;</span></a>
-    </div>
-    <div class="featured-gallery-grid" id="featuredGallery" aria-label="A selection from the portfolio"></div>
-  </section>
-
   <section class="home-about-preview" aria-labelledby="home-about-title">
     <div class="home-about-preview-image">
       <img src="https://res.cloudinary.com/duugpqtue/image/upload/v1786208814/322A8401_sjffci.jpg" alt="Portrait of Sigurd Rolfsnes" loading="lazy">
@@ -59,25 +49,6 @@
   </footer>
   <script src="script.js"></script>
   <script>
-    // Hamburger menu toggle for all pages
-    const hamburger = document.querySelector('.hamburger');
-    const menuLinks = document.querySelector('.nav-links');
-    if (hamburger && menuLinks) {
-      hamburger.addEventListener('click', function() {
-        menuLinks.classList.toggle('open');
-        const expanded = hamburger.getAttribute('aria-expanded') === 'true';
-        hamburger.setAttribute('aria-expanded', !expanded);
-      });
-      menuLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          if (window.innerWidth <= 800) {
-            menuLinks.classList.remove('open');
-            hamburger.setAttribute('aria-expanded', 'false');
-          }
-        });
-      });
-    }
-
     // --- Latest Posts Dynamic Loader ---
     function initHeroTitleShuffle() {
       const word = document.getElementById('heroShuffleWord');
@@ -140,7 +111,8 @@
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00003_wko69l.jpg' },
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766342069/DSCF4816_o5swac.jpg' },
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786212369/_12_jzl4am.jpg' },
-        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198501/DSCF6175_nbpi1j.jpg' }
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786198501/DSCF6175_nbpi1j.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766342035/DSCF3178-Edit_os94dm.jpg'}
       ];
 
       // Add portrait-oriented mobile photos here. Mobile uses the desktop set until this list has entries.
@@ -153,7 +125,8 @@
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766351140/Background_tt0ooh.png' },
         { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1786210002/ekorn_n0tjs5.jpg' },
         { type: 'video', src: 'https://res.cloudinary.com/duugpqtue/video/upload/v1786198172/bl%C3%A5isvatnet_backflip_spbqsf.mov' },
-        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg' }
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg' },
+        { type: 'image', src: 'https://res.cloudinary.com/duugpqtue/image/upload/v1766342035/DSCF3178-Edit_os94dm.jpg'}
       ];
 
       const slides = (window.matchMedia('(max-width: 700px)').matches && mobileSlides.length)
@@ -252,42 +225,6 @@
       return sorted.slice(0, 2);
     }
 
-    async function loadFeaturedImages() {
-      const gallery = document.getElementById('featuredGallery');
-      if (!gallery || typeof parseImagesYaml !== 'function') return;
-
-      try {
-        const response = await fetch(new URL('images.yml', window.location.href));
-        if (!response.ok) throw new Error('Unable to load featured images');
-
-        const items = parseImagesYaml(await response.text())
-          .filter(item => item.url);
-
-        for (let index = items.length - 1; index > 0; index--) {
-          const randomIndex = Math.floor(Math.random() * (index + 1));
-          [items[index], items[randomIndex]] = [items[randomIndex], items[index]];
-        }
-
-        items.splice(6);
-
-        items.forEach(item => {
-          const card = document.createElement('div');
-          card.className = 'highlight-image-card';
-
-          const image = document.createElement('img');
-          image.className = 'highlight-image';
-          image.src = item.url;
-          image.alt = item.title || item.public_id || 'Featured photograph';
-          image.loading = 'lazy';
-
-          card.appendChild(image);
-          gallery.appendChild(card);
-        });
-      } catch (error) {
-        console.error('Failed to load featured images', error);
-      }
-    }
-
     function renderLatestPosts(posts) {
       const container = document.getElementById('latestPostsList');
       if (!container) return;
@@ -320,7 +257,6 @@
     window.addEventListener('DOMContentLoaded', async () => {
       initHeroTitleShuffle();
       loadHeroSlideshow();
-      await loadFeaturedImages();
       const posts = await fetchLatestPosts();
       renderLatestPosts(posts);
     });
