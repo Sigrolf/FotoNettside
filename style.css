@@ -1022,6 +1022,32 @@ footer {
   display: none;
 }
 @media (max-width: 700px) {
+  .portfolio-img-wrapper:hover .portfolio-img,
+  .portfolio-img-wrapper:focus-within .portfolio-img {
+    border-color: transparent;
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.45);
+  }
+
+  .portfolio-section .portfolio-categories {
+    position: sticky;
+    top: calc(76px + 0.35rem);
+    z-index: 95;
+    margin: 0 0 1.2rem;
+    padding: 0.35rem 0.6rem 0.45rem;
+    transition: opacity 0.22s ease, transform 0.22s ease;
+    background: linear-gradient(180deg, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.42) 100%);
+    -webkit-backdrop-filter: blur(8px) saturate(1.08);
+    backdrop-filter: blur(8px) saturate(1.08);
+  }
+  .portfolio-section .portfolio-categories-mobile {
+    width: min(92vw, 420px);
+    margin: 0 auto;
+  }
+  body.lightbox-open .portfolio-section .portfolio-categories {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+  }
   .portfolio-categories-desktop {
     display: none;
   }

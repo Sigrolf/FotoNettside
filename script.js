@@ -167,6 +167,7 @@ function openLightbox(src, imgs = images) {
   if (currentIndex === -1) currentIndex = 0;
   showLightboxImage(currentIndex);
   lightbox.classList.add('active');
+  document.body.classList.add('lightbox-open');
   content.focus();
   document.body.style.overflow = 'hidden';
 }
@@ -189,6 +190,7 @@ function showLightboxImage(idx) {
 
 function closeLightbox() {
   lightbox.classList.remove('active');
+  document.body.classList.remove('lightbox-open');
   imgEl.src = '';
   document.body.style.overflow = '';
 }
