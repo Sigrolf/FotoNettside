@@ -737,7 +737,7 @@
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348916/_00001_h6oaxe.jpg
   public_id: Andromeda_galaxy
-  title: Andromeda galaxy
+  title: ANDROMEDA GALAXY
   caption:
     Andromeda galaxy taken from Namdalseid, Norway. About 50 min of total exposure time, along with calibration frames stacked in SIRIL and stretched in photoshop
     Its the closest spiral galaxy to our Milky Way, but still 2.5 million years away! With over a trillion stars. This is probably my favorite photo i have taken of all time. 
@@ -750,7 +750,7 @@
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg
   public_id: Orions_belt
   title: Orions_belt
-  caption: 'this is Orion''s Belt. Taken from Namdalseid, Norway'
+  caption: 'this is Orions Belt. Taken from Namdalseid, Norway'
   category: astro
   featured: true
   stars: 5
@@ -782,7 +782,7 @@
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00005_ktgggr.jpg
   public_id: Bode_and_Cigar_Galaxy
   title: Bode and Cigar Galaxy closeup
-  caption: ''
+  caption: 'Bode and cigar galaxy are two galaxies located in the constellation Ursa Major. This is a widefield image showing both galaxies along with several stars in the foreground. They are unbelievably far away, with Bode galaxy being about 12 million light years away and Cigar galaxy about 11 million light years away.'
   category: astro
   featured: false
   stars: 5
@@ -806,7 +806,7 @@
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348920/_00009_py99kt.jpg
   public_id: Trifid Nebula
   title: Trifid
-  caption: ''
+  caption: 'Located 5,000 light-years away in the constellation Sagittarius, the Trifid Nebula is an active star-forming region named for the dark dust tracks that divide its glowing center. Its distinct appearance comes from a pink emission nebula of hot hydrogen gas, a surrounding blue reflection nebula of scattered starlight, and dark dust lanes blocking the light behind them'
   category: astro
   featured: false
   stars: 3
@@ -814,7 +814,7 @@
     https://res.cloudinary.com/duugpqtue/image/upload/v1768598487/4_5Format_T__v4trcb.png
   public_id: Triangulum Galaxy
   title: Triangulum Galaxy
-  caption: 'Triangulum galaxy is a galaxy... write more here'
+  caption: 'The Triangulum Galaxy (Messier 33) is a spiral galaxy located roughly 2.7 million light-years from Earth in the constellation Triangulum. As the third-largest member of our Local Group behind Andromeda and the Milky Way, it contains around 40 billion stars. So crazy many stars its unbelievable'
   category: astro
   featured: false
   stars: 5
@@ -1127,239 +1127,183 @@
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212369/_12_jzl4am.jpg
   public_id: _12_jzl4am
-  title: _12_jzl4am
-  caption: ''
+  title: Beaver
+  caption: 'I was walking around theisendammen and suddenly this beaver popped up right beside me, so i took up my camera and took this cute photo of it while its eating.'
   category: wildlife
   featured: false
-  stars: 1
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348962/_13_yq7qzt.jpg
   public_id: _13_yq7qzt
-  title: _13_yq7qzt
-  caption: ''
+  title: Squirrel portrait
+  caption: 'This cute squirrel was photographed in ringve botanical park Trondheim '
   category: wildlife
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212378/_16_z9xl3r.jpg
   public_id: _16_z9xl3r
   title: _16_z9xl3r
-  caption: ''
-  category: wildlife
+  title: Squirrel squirreling
+  caption: 'This cute squirrel was photographed in ringve botanical park Trondheim '
   featured: false
-  stars: 1
+  stars: 4
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212379/_17_cksfds.jpg
   public_id: _17_cksfds
-  title: _17_cksfds
-  caption: ''
+  title: Mr Squirrel
+  caption: 'This ugly squirrel was photographed in ringve botanical park Trondheim '
   category: wildlife
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212382/_18_gmfgx4.jpg
   public_id: _18_gmfgx4
   title: _18_gmfgx4
-  caption: ''
-  category: wildlife
-  featured: false
-  stars: 1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212384/_19_vbjtnk.jpg
-  public_id: _19_vbjtnk
-  title: _19_vbjtnk
-  caption: ''
-  category: wildlife
-  featured: false
-  stars: 1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212349/_2_nozxks.jpg
-  public_id: _2_nozxks
-  title: _2_nozxks
-  caption: ''
-  category: wildlife
+  title: A squirrel climbing!
+  caption: 'This sexy squirrel was photographed in ringve botanical park Trondheim '
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212386/_20_gmirnk.jpg
   public_id: _20_gmirnk
-  title: _20_gmirnk
-  caption: ''
-  category: wildlife
-  featured: false
-  stars: 1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212351/_3_vvlsjk.jpg
-  public_id: _3_vvlsjk
-  title: _3_vvlsjk
-  caption: ''
-  category: wildlife
-  featured: false
-  stars: 1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212352/_4_ahhydl.jpg
-  public_id: _4_ahhydl
-  title: _4_ahhydl
-  caption: ''
+  title: Brenner brennmanet?
+  caption: 'Brennmanet taking using a ROV, not actually my ROV so this photo is kinda of stolen. sorry'
   category: wildlife
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212355/_5_hvixtm.jpg
   public_id: _5_hvixtm
-  title: _5_hvixtm
-  caption: ''
+  title: so cute
+  caption: 'I was on my way home after a hike in bymarka and happened to have my camera with me and suddenly saw this cute deer jump between the trees.'
   category: wildlife
   featured: false
-  stars: 1
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212358/_6_g5xeax.jpg
   public_id: _6_g5xeax
-  title: _6_g5xeax
-  caption: ''
+  title: The valley of fire GOAT
+  caption: 'Yup, found this goat in the valley of fire, nevada'
   category: wildlife
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212359/_7_hjsyvk.jpg
   public_id: _7_hjsyvk
-  title: _7_hjsyvk
-  caption: ''
+  title: Whatchu lookin at?
+  caption: 'found this goat in the valley of fire, nevada'
   category: wildlife
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212362/_8_kreqfm.jpg
   public_id: _8_kreqfm
-  title: _8_kreqfm
-  caption: ''
+  title: Sharp eyes
+  caption: 'found this goat in the valley of fire, nevada'
   category: wildlife
   featured: false
-  stars: 1
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786210002/ekorn_n0tjs5.jpg
   public_id: ekorn_n0tjs5
-  title: ekorn_n0tjs5
-  caption: ''
+  title: Hey there!
+  caption: 'Laying down in the grass in ringve botanical park i managed to capture this curious little squirrel'
   category: wildlife
   featured: false
-  stars: 1
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221653/DJI_0197-Edit_aubmjk.jpg
   public_id: DJI_0197-Edit_aubmjk
-  title: DJI_0197-Edit_aubmjk
-  caption: ''
+  title: The Rolfsnes peninsula
+  caption: 'The landscape is so cool! Its not any sharp mountains, just hilly, scattered with lakes and few spots of trees.'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221654/DJI_0247-Edit_xzcwqh.jpg
   public_id: DJI_0247-Edit_xzcwqh
-  title: DJI_0247-Edit_xzcwqh
-  caption: ''
+  title: Siggjo twilight
+  caption: 'Siggjo is the big mountain in the middle of the image rising up from the otherwise flat landscape. Seeing it bathed in pink twilight was so cool! you should look up the geolgogy, very cool. Taken with dji AVATA'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 6
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221654/DSCF5487_spyf5v.jpg
   public_id: DSCF5487_spyf5v
-  title: DSCF5487_spyf5v
-  caption: ''
+  title: Northern light warrior
+  caption: 'Me vs the northern light, taken in a valley close to Skjåk, Norway'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 3
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221655/DSCF6729_q1fp1t.jpg
   public_id: DSCF6729_q1fp1t
-  title: DSCF6729_q1fp1t
-  caption: ''
+  title: GEIRANGER
+  caption: 'View of geiranger from dalsnibba viewpoint'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221655/DSCF6791_lqu3vj.jpg
   public_id: DSCF6791_lqu3vj
-  title: DSCF6791_lqu3vj
-  caption: ''
+  title: simple life 
+  caption: 'View over loen with jostedalsbreen peaking in at the back there'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 6
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221656/DSCF6839_gtx04o.jpg
   public_id: DSCF6839_gtx04o
-  title: DSCF6839_gtx04o
-  caption: ''
+  title: Absurd geology
+  caption: 'Ålfotbreen landskapsvernområde has some very very interesting geoligy, meanwhile most other glaciers carved out deep steep valley, this glacier carved out this shelf like landscape, very weird. Im not a geologist, so look it up, its very interesting'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 6
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221656/DSCF7979_p7cpii.jpg
   public_id: DSCF7979_p7cpii
-  title: DSCF7979_p7cpii
-  caption: ''
-  category: landscapes
-  featured: false
-  stars: 1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221657/DSCF7993_atrg2n.jpg
-  public_id: DSCF7993_atrg2n
-  title: DSCF7993_atrg2n
-  caption: ''
+  title: So small
+  caption: 'Image on top of hemre gjevillvasskamm, trollheimen norway'
   category: landscapes
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221659/DSCF7994_uk5rsg.jpg
   public_id: DSCF7994_uk5rsg
-  title: DSCF7994_uk5rsg
-  caption: ''
+  title: Time for adventure
+  caption: 'This epic photo was taken on an NTNUI ski and fjellsport trip in Trollheimen, Norway'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 6
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221660/DSCF8001_ycfbsr.jpg
   public_id: DSCF8001_ycfbsr
-  title: DSCF8001_ycfbsr
-  caption: ''
+  title: Midtre gjevillvasskamm
+  caption: 'Midtre gjevillvasskamm is a mountain in trollheimen, close to gjevillvatnet with a very steep ridge connecting it'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221660/DSCF8010_be3chq.jpg
   public_id: DSCF8010_be3chq
-  title: DSCF8010_be3chq
-  caption: ''
+  title: Kamtjønnin
+  caption: 'In Trollheimen there are these two small lakes called kamtjønnin, they are very cool alpine lakes. Fun fact on this image you could zoom in to see NTNUI kamtjønnkoia which is a rentable cabin from NTNUI!'
   category: landscapes
   featured: false
-  stars: 1
+  stars: 6
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221668/DSCF8130_siogud.jpg
   public_id: DSCF8130_siogud
-  title: DSCF8130_siogud
-  caption: ''
+  title: Traversing the ridge
+  caption: 'Here we were traversing the ridge of midtre gjevillvasskamm, there was some klyving involved, but insane views all around'
   category: landscapes
   featured: false
-  stars: 1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221669/DSCF8149_jbgwyx.jpg
-  public_id: DSCF8149_jbgwyx
-  title: DSCF8149_jbgwyx
-  caption: ''
-  category: landscapes
-  featured: false
-  stars: 1
+  stars: 6
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221669/DSCF8157_skmvlg.jpg
   public_id: DSCF8157_skmvlg
-  title: DSCF8157_skmvlg
-  caption: ''
+  title: Don't look up
+  caption: 'Looking up towards the top of midtre gjevillvasskamm, this was taken on an NTNUI ski and fjellsport hike'
   category: landscapes
   featured: false
-  stars: 1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221661/DSCF8096_ni28ed.jpg
-  public_id: DSCF8096_ni28ed
-  title: DSCF8096_ni28ed
-  caption: ''
-  category: backflips
-  featured: false
-  stars: 1
+  stars: 4
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786221667/DSCF8110_cxvnlz.jpg
   public_id: DSCF8110_cxvnlz
-  title: DSCF8110_cxvnlz
-  caption: ''
+  title: Mountain backflip!
+  caption: 'This backflip is taken on the top of midtre gjevillvasskam, trollheimen, Norway'
   category: backflips
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766342061/DSCF4522_zzbob9.jpg
   public_id: DSCF4522_zzbob9
-  title: DSCF4522_zzbob9
-  caption: ''
+  title: Death valley portrait
+  caption: 'yeah, its death valley, june 2024'
   category: landscapes
   featured: false
   stars:1
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1766342062/DSCF4524_uwuxru.jpg
-  public_id: DSCF4524_uwuxru
-  title: DSCF4524_uwuxru
-  caption: ''
-  category: landscapes
-  featured: false
-  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766342070/DSCF4827_qpwbi1.jpg
   public_id: DSCF4827_qpwbi1
-  title: DSCF4827_qpwbi1
-  caption: ''
+  title: Valley of fire side angle
+  caption: 'its side of angle of the other very cool valley of fire image'
   category: landscapes
   featured: false
   stars: 1
