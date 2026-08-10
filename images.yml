@@ -621,15 +621,7 @@
   caption: 'Wallpaper worthy image of the valley of fire, cool road that clenches between the red rocks, say something about geologi, taken june 2024 on roadtrip'
   category: landscapes
   featured: false
-  8
-- url: >-
-    https://res.cloudinary.com/duugpqtue/image/upload/v1766342070/DSCF4825_ahpsfv.jpg
-  public_id: DSCF4825_ahpsfv
-  title: Valley of fire sunset
-  caption: 'Valley of fire in sunset, june 2024 roadtrip'
-  category: landscapes
-  featured: false
-  stars: 4
+  stars: 8
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342071/DSCF4828_tpdum6.jpg
   public_id: DSCF4828_tpdum6
@@ -1141,9 +1133,9 @@
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212378/_16_z9xl3r.jpg
   public_id: _16_z9xl3r
-  title: _16_z9xl3r
   title: Squirrel squirreling
   caption: 'This cute squirrel was photographed in ringve botanical park Trondheim '
+  category: wildlife
   featured: false
   stars: 4
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212379/_17_cksfds.jpg
@@ -1155,9 +1147,9 @@
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212382/_18_gmfgx4.jpg
   public_id: _18_gmfgx4
-  title: _18_gmfgx4
   title: A squirrel climbing!
   caption: 'This sexy squirrel was photographed in ringve botanical park Trondheim '
+  category: wildlife
   featured: false
   stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212386/_20_gmirnk.jpg
@@ -1299,7 +1291,7 @@
   caption: 'yeah, its death valley, june 2024'
   category: landscapes
   featured: false
-  stars:1
+  stars: 1
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766342070/DSCF4827_qpwbi1.jpg
   public_id: DSCF4827_qpwbi1
   title: Valley of fire side angle
@@ -1307,3 +1299,9 @@
   category: landscapes
   featured: false
   stars: 1
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786392234/DSCF1523_cwogyk.jpg
+  public_id: DSCF1523_cwogyk
+  title: Lofoten 
+  caption: 'View from reinebringen, Norway. This super unique landscape is formed by the glaciers. i dont know much more, so dont ask me'
+  category: landscapes
+  featured: false
