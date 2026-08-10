@@ -747,6 +747,14 @@
   featured: true
   stars: 5
 - url: >-
+    https://res.cloudinary.com/duugpqtue/image/upload/v1786210077/milkyway_rfuhjn.jpg
+  public_id: Orions_belt
+  title: Milky way galaxy
+  caption: 'Milky way galaxy, untracked stacked about 40 images together in SIRIL. Taken from dolomites in italy'
+  category: astro
+  featured: true
+  stars: 5
+- url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348917/_00002_fv08zm.jpg
   public_id: Milky_way
   title: Milky way
