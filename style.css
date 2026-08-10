@@ -1033,11 +1033,11 @@ footer {
     top: calc(76px + 0.35rem);
     z-index: 95;
     margin: 0 0 1.2rem;
-    padding: 0.35rem 0.6rem 0.45rem;
+    padding: 0;
     transition: opacity 0.22s ease, transform 0.22s ease;
-    background: linear-gradient(180deg, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.42) 100%);
-    -webkit-backdrop-filter: blur(8px) saturate(1.08);
-    backdrop-filter: blur(8px) saturate(1.08);
+    background: transparent;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
   }
   .portfolio-section .portfolio-categories-mobile {
     width: min(92vw, 420px);
