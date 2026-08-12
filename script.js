@@ -64,12 +64,15 @@ document.body.appendChild(lightbox);
 const overlay = lightbox.querySelector('.lightbox-overlay');
 const content = lightbox.querySelector('.lightbox-content');
 const imgEl = lightbox.querySelector('.lightbox-img');
+const imgContainer = lightbox.querySelector('.lightbox-img-container');
 const titleEl = lightbox.querySelector('.lightbox-title');
 const closeBtn = lightbox.querySelector('.lightbox-close');
 const detailsBtn = lightbox.querySelector('.lightbox-details-btn');
 const detailsPanel = lightbox.querySelector('.lightbox-details-panel');
 const arrowLeft = lightbox.querySelector('.lightbox-arrow-left');
 const arrowRight = lightbox.querySelector('.lightbox-arrow-right');
+
+content.setAttribute('tabindex', '-1');
 
 
 // --- Lightbox arrow/details fade logic ---
@@ -134,6 +137,16 @@ let currentIndex = 0;
 let currentImages = images;
 let currentImageData = {};
 
+function resetDetailsPanelState() {
+  detailsBtn.setAttribute('aria-expanded', 'false');
+  detailsPanel.setAttribute('aria-hidden', 'true');
+  detailsPanel.classList.remove('open');
+  detailsBtn.classList.remove('active');
+  detailsBtn.classList.remove('fade');
+  if (imgContainer) imgContainer.classList.remove('details-open');
+  detailsPanelOpen = false;
+}
+
 // Example image metadata (expand as needed)
 const imageMeta = {
   'images/astro/_00001.jpg': { title: 'Andromeda Galaxy', description: 'Deep-sky view of the M31 Andromeda galaxy', date: '2024-07-01', camera: 'Fujifilm XT-30', settings: 'f/2.8, 20s, ISO 3200' },
@@ -165,8 +178,10 @@ function openLightbox(src, imgs = images) {
   currentImages = imgs;
   currentIndex = imgs.indexOf(src);
   if (currentIndex === -1) currentIndex = 0;
+  resetDetailsPanelState();
   showLightboxImage(currentIndex);
   lightbox.classList.add('active');
+  lightbox.setAttribute('aria-hidden', 'false');
   document.body.classList.add('lightbox-open');
   content.focus();
   document.body.style.overflow = 'hidden';
@@ -183,16 +198,51 @@ function showLightboxImage(idx) {
   detailsPanel.innerHTML = `
     <div class="lightbox-details-panel-row"><strong>Description:</strong> <span>${currentImageData.description || 'N/A'}</span></div>
   `;
-  detailsBtn.setAttribute('aria-expanded', 'false');
-  detailsPanel.setAttribute('aria-hidden', 'true');
-  detailsPanel.classList.remove('open');
+  resetDetailsPanelState();
 }
 
 function closeLightbox() {
+  resetDetailsPanelState();
   lightbox.classList.remove('active');
+  lightbox.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('lightbox-open');
   imgEl.src = '';
   document.body.style.overflow = '';
+}
+
+function closeDetailsPanel() {
+  if (imgContainer) imgContainer.classList.remove('details-open');
+  detailsPanel.classList.remove('open');
+  detailsBtn.classList.remove('active');
+  detailsBtn.setAttribute('aria-expanded', 'false');
+  detailsPanel.setAttribute('aria-hidden', 'true');
+  detailsPanelOpen = false;
+  showControls();
+}
+
+function openDetailsPanel() {
+  if (imgContainer) imgContainer.classList.add('details-open');
+  detailsPanel.classList.add('open');
+  detailsBtn.classList.add('active');
+  detailsBtn.setAttribute('aria-expanded', 'true');
+  detailsPanel.setAttribute('aria-hidden', 'false');
+  detailsPanelOpen = true;
+  detailsBtn.classList.remove('fade');
+}
+
+function isLightboxInteractiveTarget(target) {
+  if (!(target instanceof Element)) return false;
+  return Boolean(
+    target.closest('.lightbox-img-container')
+    || target.closest('.lightbox-arrow')
+    || target.closest('.lightbox-details-btn')
+    || target.closest('.lightbox-details-panel')
+    || target.closest('.lightbox-close')
+  );
+}
+
+function isMobileLightboxViewport() {
+  return window.matchMedia('(max-width: 900px)').matches;
 }
 
 closeBtn.addEventListener('click', closeLightbox);
@@ -221,20 +271,35 @@ let touchStartX = null;
 let touchStartY = null;
 let touchEndX = null;
 let touchEndY = null;
-const SWIPE_THRESHOLD = 48; // px
+let touchMoved = false;
+const SWIPE_THRESHOLD = 42; // px
+const SWIPE_CLOSE_THRESHOLD = 86; // px
+const TAP_THRESHOLD = 10; // px
 
 function handleTouchStart(e) {
   if (!lightbox.classList.contains('active')) return;
+  if (e.touches.length !== 1) return;
   const touch = e.touches[0];
   touchStartX = touch.clientX;
   touchStartY = touch.clientY;
+  touchEndX = touchStartX;
+  touchEndY = touchStartY;
+  touchMoved = false;
 }
 
 function handleTouchMove(e) {
   if (!lightbox.classList.contains('active')) return;
+  if (e.touches.length !== 1) return;
   const touch = e.touches[0];
   touchEndX = touch.clientX;
   touchEndY = touch.clientY;
+  if (touchStartX !== null && touchStartY !== null) {
+    const movedX = Math.abs(touchEndX - touchStartX);
+    const movedY = Math.abs(touchEndY - touchStartY);
+    if (movedX > TAP_THRESHOLD || movedY > TAP_THRESHOLD) {
+      touchMoved = true;
+    }
+  }
 }
 
 function handleTouchEnd(e) {
@@ -242,19 +307,34 @@ function handleTouchEnd(e) {
   if (touchStartX === null || touchEndX === null) return;
   const dx = touchEndX - touchStartX;
   const dy = touchEndY - touchStartY;
-  if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > SWIPE_THRESHOLD) {
+
+  const absDx = Math.abs(dx);
+  const absDy = Math.abs(dy);
+  const tapLike = !touchMoved || (absDx <= TAP_THRESHOLD && absDy <= TAP_THRESHOLD);
+  const mostlyHorizontalSwipe = absDx > SWIPE_THRESHOLD && absDx > absDy * 1.15;
+  const swipeDownToClose = dy > SWIPE_CLOSE_THRESHOLD && absDy > absDx * 1.2;
+
+  if (mostlyHorizontalSwipe) {
     if (dx < 0) {
-      // Swipe left: next image
       showNextImage();
     } else {
-      // Swipe right: previous image
       showPrevImage();
     }
+    showControls();
+  } else if (swipeDownToClose && isMobileLightboxViewport()) {
+    closeLightbox();
+  } else if (tapLike && isMobileLightboxViewport()) {
+    const target = e.target;
+    if (!isLightboxInteractiveTarget(target)) {
+      closeLightbox();
+    }
   }
+
   touchStartX = null;
   touchEndX = null;
   touchStartY = null;
   touchEndY = null;
+  touchMoved = false;
 }
 
 lightbox.addEventListener('touchstart', handleTouchStart, { passive: true });
@@ -286,20 +366,16 @@ function showNextImage() {
 // Details panel toggle
 detailsBtn.addEventListener('click', () => {
   const expanded = detailsBtn.getAttribute('aria-expanded') === 'true';
-  detailsBtn.setAttribute('aria-expanded', !expanded);
-  detailsPanel.setAttribute('aria-hidden', expanded);
   if (!expanded) {
-    imgEl.classList.add('details-open');
-    detailsPanel.classList.add('open');
-    detailsBtn.classList.add('active');
-    detailsPanelOpen = true;
-    detailsBtn.classList.remove('fade');
+    openDetailsPanel();
   } else {
-    imgEl.classList.remove('details-open');
-    detailsPanel.classList.remove('open');
-    detailsBtn.classList.remove('active');
-    detailsPanelOpen = false;
-    showControls();
+    closeDetailsPanel();
+  }
+});
+
+detailsPanel.addEventListener('click', () => {
+  if (detailsPanelOpen && isMobileLightboxViewport()) {
+    closeDetailsPanel();
   }
 });
 

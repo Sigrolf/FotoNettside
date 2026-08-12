@@ -855,6 +855,7 @@ footer {
   background: none;
   border: none;
   cursor: pointer;
+  z-index: 10005;
   z-index: 10001;
   transition: color 0.2s;
 }
@@ -967,7 +968,7 @@ footer {
   background: none;
   border: none;
   cursor: pointer;
-  z-index: 10;
+  z-index: 10004;
   opacity: 0.8;
   transition: color 0.2s, opacity 0.2s;
   padding: 0.2rem 0.7rem;
@@ -977,7 +978,7 @@ footer {
   left: 1.2rem;
 }
 .lightbox-arrow.right {
-  right: 100;
+  right: 1.2rem;
 }
 
 .lightbox-arrow:hover,
@@ -991,6 +992,7 @@ footer {
     padding: 1.2rem 0.5rem 1.2rem 0.5rem;
     max-width: 99vw;
     max-height: 99vh;
+    touch-action: pan-y pinch-zoom;
   }
   .lightbox-img {
     max-width: 95vw;
@@ -1004,6 +1006,49 @@ footer {
   }
   .lightbox-arrow.left { left: -0.7rem; }
   .lightbox-arrow.right { right: -0.7rem; }
+  .lightbox-arrow {
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.42);
+    border-radius: 999px;
+  }
+  .lightbox-close {
+    width: 2.8rem;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+  .lightbox.active .lightbox-content {
+    width: 100vw;
+    height: 100dvh;
+    max-width: 100vw;
+    max-height: 100dvh;
+    padding: 0.2rem;
+    border-radius: 0;
+  }
+
+  .lightbox .lightbox-img {
+    max-width: 100vw;
+    max-height: 96dvh;
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    object-fit: contain;
+  }
+
+  .lightbox .lightbox-title,
+  .lightbox .lightbox-caption {
+    display: none;
+  }
 }
 
 /* Portfolio Categories */
