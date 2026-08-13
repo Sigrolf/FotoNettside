@@ -283,11 +283,21 @@ body {
   z-index: 100;
 }
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 0.2em;
   color: var(--accent);
   text-transform: uppercase;
+}
+.logo-mark {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  display: block;
+  flex: 0 0 auto;
 }
 .nav-links {
   list-style: none;
@@ -331,6 +341,14 @@ body {
 }
 
 @media (max-width: 800px) {
+  .logo {
+    gap: 0.45rem;
+    letter-spacing: 0.14em;
+  }
+  .logo-mark {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
   .hamburger {
     display: flex;
   }
@@ -885,7 +903,7 @@ footer {
   position: relative;
   background: rgba(24, 28, 32, 0.85);
   border-radius: 1.5rem;
-  box-shadow: 0 8px 48px #000a, 0 0 0 1.5px #00FF7F33;
+  box-shadow: 0 8px 48px #000a;
   padding: 2.5rem 2.5rem 2rem 2.5rem;
   max-width: 96vw;
   max-height: 92vh;

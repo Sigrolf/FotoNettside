@@ -257,8 +257,8 @@
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342042/DSCF3480_ltfz1z.jpg
   public_id: DSCF3480_ltfz1z
-  title: DSCF3480_ltfz1z
-  caption: 'Lake tahoe twilight'
+  title: Lake tahoe twilight
+  caption: 'Lake tahoe and mountains beyond showering in daylight.'
   category: landscapes
   featured: false
   stars: 4
@@ -907,7 +907,7 @@
   stars: 2
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1786133325/DSCF1367_b8xwpi.jpg
   public_id: DSCF1367_b8xwpi
-  title: 
+  title: Børgefjell
   caption: 
     Børgefjell National Park is a remote, trail-free wilderness spanning central Norways border between Trøndelag and Nordland. 
     It is renowned for its rugged alpine peaks, excellent trout fishing, and as a vital sanctuary for the endangered arctic fox
@@ -1313,3 +1313,32 @@
   caption: 'View from reinebringen, Norway. This super unique landscape is formed by the glaciers. i dont know much more, so dont ask me'
   category: landscapes
   featured: false
+  stars:
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212349/_2_nozxks.jpg
+  public_id: _2_nozxks
+  title: White wagtail
+  caption: 'Whitw wagtail wagging its tail beside the river'
+  category: wildlife
+  featured: false
+  stars: 0
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212351/_3_vvlsjk.jpg
+  public_id: _3_vvlsjk
+  title: 
+  caption: ''
+  category: wildlife
+  featured: false
+  stars: 0
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786395669/BabyDuck_xc9f8n.jpg
+  public_id: BabyDuck_xc9f8n
+  title: baby ducky
+  caption: 'cute baby duck, this image was taken 4 years ago so hopefully this duck is not dead now, do ducks have long lifespan idk?'
+  category: wildlife
+  featured: false
+  stars: 6
+- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786198763/DSCF1173_kkz2li.jpg
+  public_id: DSCF1173_kkz2li
+  title: sunset backflip
+  caption: 'Taking a backflip on Yttermunken, Trøndelag in sunset light'
+  category: backflips
+  featured: false
+  stars: 5
