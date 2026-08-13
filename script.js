@@ -560,6 +560,8 @@ function renderPortfolio(category) {
   if (!portfolioGallery) return;
 
   portfolioGallery.innerHTML = '';
+  const normalizedCategory = normalizeCategory(category);
+  const isAstroCategory = normalizedCategory === 'astro';
   const items = getPortfolioItems(category);
 
   if (!items.length) {
@@ -573,6 +575,9 @@ function renderPortfolio(category) {
   items.forEach((item, index) => {
     const wrapper = document.createElement('div');
     wrapper.className = 'portfolio-img-wrapper';
+    if (isAstroCategory) {
+      wrapper.classList.add('portfolio-img-wrapper-astro');
+    }
 
     const img = document.createElement('img');
     img.src = item.url;
