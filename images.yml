@@ -730,19 +730,16 @@
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348916/_00001_h6oaxe.jpg
   public_id: Andromeda_galaxy
   title: ANDROMEDA GALAXY
-  caption:
-    Andromeda galaxy taken from Namdalseid, Norway. About 50 min of total exposure time, along with calibration frames stacked in SIRIL and stretched in photoshop
-    Its the closest spiral galaxy to our Milky Way, but still 2.5 million years away! With over a trillion stars. This is probably my favorite photo i have taken of all time. 
-    The fact that i, an amateur photographer with a normal camera (fujixt30) and a startracker is able to take photo of this galaxy with so many stars and so much possibility of life so so far away i find really really cool.
-    Its not a conspiracy people! These distant worlds are just chilling above our heads without people thinking too much of them. To the naked eye it looks like a fuzzy dim blob in the night sky, but when you see the detail its so freaking cool!!!!
+  caption: 'Andromeda galaxy taken from Namdalseid, Norway. About 50 min of total exposure time, along with calibration frames stacked in SIRIL and stretched in photoshop. Its the closest spiral galaxy to our Milky Way, but still 2.5 million years away! With over a trillion stars. This is probably my favorite photo i have taken of all time. The fact that i, an amateur photographer with a normal camera (fujixt30) and a startracker is able to take photo of this galaxy with so many stars and so much possibility of life so so far away i find really really cool. Its not a conspiracy people! These distant worlds are just chilling above our heads without people thinking too much of them. To the naked eye it looks like a fuzzy dim blob in the night sky, but when you see the detail its so freaking cool!!!!'
   category: astro
   featured: true
   stars: 5
 - url: >-
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348919/_00006_ifzb77.jpg
   public_id: Orions_belt
-  title: Orions_belt
-  caption: 'this is Orions Belt. Taken from Namdalseid, Norway'
+  title: ORIONS BELT
+  caption: Orions belts three stars, near the bottom star Alnitak you can see the flame nebula and the horsehead nebula. The Horsehead is a thick cloud of dust blocking light from a surrounding nebula, IC 434.Here you can see all the crazy cool surrounding nebulae. While the Flame Nebula is an emission nebula in the constellation Orion. It is about 1200 ly light-years away. 
+           Total integration time of Taken from Namdalseid in bortle 4 conditions, Norway. '
   category: astro
   featured: true
   stars: 5
@@ -766,7 +763,7 @@
     https://res.cloudinary.com/duugpqtue/image/upload/v1766348918/_00003_wko69l.jpg
   public_id: The Pleiades
   title: The Pleiades
-  caption: 'Pleiades is a star cluster also known as the Seven Sisters. Fun fact: it is mentioned in the Bible. in the books of Job (Job 9:9, Job 38:31) and Amos (Amos 5:8)'
+  caption: 'Pleiades is a star cluster also known as the Seven Sisters. Fun fact: The subaru car logo is actually the pleiades constellation, in japan they say subaru for that constellation.'
   category: astro
   featured: false
   stars: 5
@@ -1318,13 +1315,6 @@
   public_id: _2_nozxks
   title: White wagtail
   caption: 'Whitw wagtail wagging its tail beside the river'
-  category: wildlife
-  featured: false
-  stars: 0
-- url: https://res.cloudinary.com/duugpqtue/image/upload/v1786212351/_3_vvlsjk.jpg
-  public_id: _3_vvlsjk
-  title: 
-  caption: ''
   category: wildlife
   featured: false
   stars: 0
