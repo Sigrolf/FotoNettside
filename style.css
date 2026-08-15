@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* Blog Archive Intro Section */
 .blog-archive-intro {
   text-align: center;
@@ -983,11 +987,21 @@ footer {
   background: #111;
   margin-bottom: 1.2rem;
   object-fit: contain;
-  outline: none;
-  /* Remove any green glow or accent border in lightbox */
+  outline: none !important;
   box-shadow: 0 4px 32px #000a !important;
   border: none !important;
   filter: none !important;
+}
+.lightbox-content:focus,
+.lightbox-content:focus-visible,
+.lightbox-img:focus,
+.lightbox-img:focus-visible,
+.lightbox-overlay:focus,
+.lightbox-overlay:focus-visible,
+.lightbox *:focus,
+.lightbox *:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
 }
 .lightbox-title {
   font-size: 3rem;
@@ -1022,11 +1036,16 @@ footer {
   z-index: 10;
   transition: color 0.2s;
   opacity: 0.85;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .lightbox-close:hover,
-.lightbox-close:focus {
+.lightbox-close:focus,
+.lightbox-close:focus-visible {
   color: #fff;
   opacity: 1;
+  outline: none !important;
+  box-shadow: none !important;
 }
 /* Lightbox arrow buttons: position relative to image container, not absolute */
 .lightbox-img-container {
@@ -1050,6 +1069,8 @@ footer {
   transition: color 0.2s, opacity 0.2s;
   padding: 0.2rem 0.7rem;
   border-radius: 50%;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .lightbox-arrow.left {
   left: 1.2rem;
@@ -1059,10 +1080,13 @@ footer {
 }
 
 .lightbox-arrow:hover,
-.lightbox-arrow:focus {
+.lightbox-arrow:focus,
+.lightbox-arrow:focus-visible {
   color: #fff;
   opacity: 1;
   background: #00FF7F22;
+  outline: none !important;
+  box-shadow: none !important;
 }
 @media (max-width: 700px) {
   .lightbox-content {
@@ -2673,6 +2697,33 @@ footer {
   margin-top: 3.5rem !important;
   color: #aebbb5;
   font-style: italic;
+}
+.page-end-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 2.5rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid rgba(0,255,127,0.16);
+  color: #aebbb5;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.page-end-label {
+  opacity: 0.8;
+}
+.page-top-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.page-top-link:hover,
+.page-top-link:focus-visible {
+  opacity: 0.8;
+  transform: translateY(-1px);
 }
 .process-article .process-button {
   margin-top: 0.5rem;

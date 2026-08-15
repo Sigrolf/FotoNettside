@@ -823,6 +823,14 @@
   category: astro
   featured: false
   stars: 2
+- url: >-
+    https://res.cloudinary.com/duugpqtue/image/upload/v1786802206/CygnusRegion_msvzyr.png
+  public_id: CygnusRegion_msvzyr
+  title: Cygnus Region
+  caption: 'The Cygnus region is one of the most visually rich parts of the Milky Way. Just seeing all these stars, nebulae and crazy cool dust cloud structures. Its so cool that this is part of our own galaxy. Its one of the most active star forming regions in our galaxy, its about 4500 light years away. In the center of the image you can see the american nebula (NGC 7000). This one was actually taken from a mountain plateu near røros'
+  category: astro
+  featured: false
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348965/_10_a5lyzo.jpg
   public_id: _10_a5lyzo
   title: Song thrush
