@@ -37,6 +37,27 @@
 
       <p>I use a <strong>Fujifilm X-T30</strong> for all my photographs. It is a small camera, which is useful when I am hiking or travelling, and it is the camera I know best.</p>
 
+      <figure class="setup-figure">
+        <img class="setup-image" src="Setup.jpg" alt="My camera mounted on a star tracker and tripod for astrophotography, with a paper ring on the zoom lens to stop zoom creep from frost." loading="lazy">
+        <figcaption>This is my astrophotography setup: the camera is mounted on a star tracker and tripod, and the little paper ring on the lens helps stop the zoom from changing because extra weight from frost can make the lens creep.</figcaption>
+      </figure>
+
+      <p>One of the biggest reasons I travel to remote places is light pollution. The Bortle scale is a way of measuring how much artificial light affects the night sky: a Bortle 1 site is an extremely dark location with almost no light pollution, while a Bortle 9 site is a heavily lit city sky where the Milky Way is washed out and faint deep-sky objects disappear. When I am shooting, I am always looking for darker places because a cleaner, darker sky makes galaxies and nebulae stand out much much more clearly.</p>
+
+      <figure class="scroll-video-figure reveal-video">
+        <video class="scroll-video" muted loop playsinline preload="metadata" aria-label="Video of Sigurd skiing through a mountain valley with a dark sky in Innerdalen">
+          <source src="https://res.cloudinary.com/duugpqtue/video/upload/v1786798402/IMG_0691_prqcpd.mov" type="video/quicktime">
+        </video>
+        <figcaption>Innerdalen is exactly the kind of place I look for when I want to photograph the night sky: low light pollution, and yeah, very cool mountains are pluses in my book.</figcaption>
+      </figure>
+
+      <p>Wildlife is one of the most rewarding parts of being outside with a camera, but it is also one of the easiest places to lose track of good etiquette. I always try to keep a respectful distance, avoid stressing animals, and never do anything that makes them feel trapped or unsafe. Sometimes that means staying still, waiting, and letting the animal decide whether it wants to appear in frame. This little squirrel, though, really wanted to stand on top of my camera, and it was impossible not to smile at that.</p>
+
+      <figure class="inline-figure">
+        <img class="inline-image" src="https://res.cloudinary.com/duugpqtue/image/upload/v1786799100/IMG_6515_lwopgt.jpg" alt="A squirrel standing on top of my camera while I am out photographing outside." loading="lazy">
+        <figcaption>This cute squirrel jumped on my camera in 2022</figcaption>
+      </figure>
+
       <h2>The lenses</h2>
       <p>My everyday lens is the 18-50mm kit lens. I use it for landscapes and for most situations where I want a fairly wide view.</p>
       <p>I also have a Fujinon 55-200mm lens. I use this lens for wildlife, but I also use it for astrophotography. It is not the most optimal lens for astro, but it is what I have, and it can still produce images I am happy with.</p>
@@ -63,5 +84,31 @@
     <p>&copy; 2026 Sigurd Rolfsnes. All rights reserved.</p>
   </footer>
   <script src="script.js"></script>
+  <script>
+    const scrollVideoFigures = document.querySelectorAll('.reveal-video');
+
+    const playOnVisible = (entries, observer) => {
+      entries.forEach(entry => {
+        const video = entry.target.querySelector('video');
+        if (!video) return;
+
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          video.play().catch(() => {});
+        } else {
+          entry.target.classList.remove('is-visible');
+          video.pause();
+          video.currentTime = 0;
+        }
+      });
+    };
+
+    const revealObserver = new IntersectionObserver(playOnVisible, {
+      threshold: 0.35,
+      rootMargin: '0px 0px -10% 0px'
+    });
+
+    scrollVideoFigures.forEach(figure => revealObserver.observe(figure));
+  </script>
 </body>
 </html>
