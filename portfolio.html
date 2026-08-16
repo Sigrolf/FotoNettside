@@ -60,6 +60,10 @@
       <button class="lightbox-arrow right" id="lightboxNext" aria-label="Next image">&#8594;</button>
     </div>
   </div>
+  <section class="portfolio-footer-callout" aria-label="Camera setup callout">
+    <p>Want to see the gear and process behind the shots?</p>
+    <a class="portfolio-cta" href="my-camera-setup.html">My camera setup <span aria-hidden="true">&rarr;</span></a>
+  </section>
   <footer>
     <p>&copy; 2026 Sigurd Rolfsnes. All rights reserved.</p>
   </footer>
@@ -132,6 +136,37 @@ window.addEventListener('DOMContentLoaded', () => {
 });
   </script>
   <style>
+    .portfolio-footer-callout {
+      max-width: 980px;
+      margin: 3rem auto 0;
+      padding: 1.6rem 1.2rem 0;
+      border-top: 1px solid rgba(0, 255, 127, 0.18);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+      color: #dfe8e4;
+      text-align: center;
+    }
+    .portfolio-footer-callout p {
+      margin: 0;
+      color: #dfe8e4;
+      font-size: 1.02rem;
+      letter-spacing: 0.04em;
+      text-transform: none;
+    }
+    @media (max-width: 600px) {
+      .portfolio-footer-callout {
+        margin-top: 2.5rem;
+        padding-top: 1.2rem;
+        gap: 0.8rem;
+      }
+      .portfolio-footer-callout p {
+        font-size: 0.95rem;
+      }
+    }
+
     /* Lightbox overlay and content styles */
 .lightbox-overlay {
   position: fixed;
