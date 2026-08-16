@@ -575,9 +575,6 @@ function renderPortfolio(category) {
   items.forEach((item, index) => {
     const wrapper = document.createElement('div');
     wrapper.className = 'portfolio-img-wrapper';
-    if (isAstroCategory) {
-      wrapper.classList.add('portfolio-img-wrapper-astro');
-    }
 
     const img = document.createElement('img');
     img.src = item.url;
@@ -616,6 +613,7 @@ function loadPortfolioData() {
             categoryBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             renderPortfolio(btn.dataset.category);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
           });
         });
       }

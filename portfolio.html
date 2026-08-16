@@ -86,6 +86,7 @@ if (dropdownToggle && dropdownMenu) {
       // Update toggle text to selected category
       dropdownToggle.textContent = btn.textContent + ' ▼';
       if (window.renderPortfolio) window.renderPortfolio(btn.dataset.category);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   });
   document.addEventListener('click', function(e) {

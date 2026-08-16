@@ -210,7 +210,7 @@
     https://res.cloudinary.com/duugpqtue/image/upload/v1766342038/DSCF3265_nwuol7.jpg
   public_id: DSCF3265_nwuol7
   title: Mt. Shasta
-  caption: 'Mt. Shasta, write some info, roadtrip california june 2024'
+  caption: 'Mt. Shasta very tall mountain in central california, roadtrip june 2024'
   category: landscapes
   featured: false
   stars: 4
@@ -866,6 +866,14 @@
   category: wildlife
   featured: false
   stars: 2
+- url: >-
+    https://res.cloudinary.com/duugpqtue/image/upload/v1786884706/_22_hhqgap.jpg
+  public_id: _22_hhqgap
+  title: Goat silhouette
+  caption: 'A goat standing on a rock in the valley of fire'
+  category: wildlife
+  featured: false
+  stars: 5
 - url: https://res.cloudinary.com/duugpqtue/image/upload/v1766348957/_2_zz1i6e.jpg
   public_id: _2_zz1i6e
   title: White wagtail
