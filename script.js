@@ -25,7 +25,6 @@ const images = [
   'images/landscapes/_8.jpg',
   'images/landscapes/_9.jpg',
   'images/landscapes/_10.jpg',
-
 ];
 
 if (galleryGrid) {
